@@ -18,7 +18,7 @@ namespace Project__1
             do
             {
                 Console.Clear();
-                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("                                                                                      ");
                 Console.WriteLine("                                                                                      ");
                 Console.WriteLine("            ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗            ");
@@ -72,7 +72,6 @@ namespace Project__1
         {
 
             Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("                                                                                                           ");
             Console.WriteLine("                                                                                                           ");
             Console.WriteLine("                               ╦ ╦┬ ┬┌─┐┌┬┐  ┬┌─┐  ┌─┐┌─┐┌┐┌┌─┐┌┬┐┬┌─┐ ┌─┐                                 ");
@@ -93,7 +92,6 @@ namespace Project__1
             Console.WriteLine("                                                                                                           ");
             Console.WriteLine("                                    (Enter any key to back in main menu)                                   ");
             Console.WriteLine("                                                                                                           ");
-
             Console.ReadKey();
         }
 
@@ -203,28 +201,96 @@ namespace Project__1
         static void Inheritance3()
         {
             Console.Clear();
-            Console.WriteLine("             [ 3 ] Co-Dominance");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                      ╔═╗┌─┐  ┌┬┐┌─┐┌┬┐┬┌┐┌┌─┐┌┐┌┌─┐┌─┐                                    ");
+            Console.WriteLine("                                      ║  │ │───│││ ││││││││├─┤││││  ├┤                                     ");
+            Console.WriteLine("                                      ╚═╝└─┘  ─┴┘└─┘┴ ┴┴┘└┘┴ ┴┘└┘└─┘└─┘                                    ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("    ====================================================================================================   ");
+            Console.WriteLine("    ||                                                                                                ||   ");
+            Console.WriteLine("    ||    Co-dominance is a form of genetic inheritance where both alleles in a gene pair are fully   ||   ");
+            Console.WriteLine("    ||    expressed in the phenotype of a heterozygous individual, without one being dominant over    ||   ");
+            Console.WriteLine("    ||    the other. This results in a phenotype that clearly shows both traits side-by-side, rather  ||   ");
+            Console.WriteLine("    ||                                      than blending them.                                       ||   ");
+            Console.WriteLine("    ||                                                                                                ||   ");
+            Console.WriteLine("    ====================================================================================================   ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                    (Enter any key to back in menu)                                        ");
+            Console.WriteLine("                                                                                                           ");
+
             Console.ReadKey();
         }
 
         static void Inheritance4()
         {
             Console.Clear();
-            Console.WriteLine("             [ 4 ] Incomplete Dominance");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                            ╦┌┐┌┌─┐┌─┐┌┬┐┌─┐┬  ┌─┐┌┬┐┌─┐  ╔╦╗┌─┐┌┬┐┬┌┐┌┌─┐┌┐┌┌─┐┌─┐                        ");
+            Console.WriteLine("                            ║││││  │ ││││├─┘│  ├┤  │ ├┤    ║║│ ││││││││├─┤││││  ├┤                         ");
+            Console.WriteLine("                            ╩┘└┘└─┘└─┘┴ ┴┴  ┴─┘└─┘ ┴ └─┘  ═╩╝└─┘┴ ┴┴┘└┘┴ ┴┘└┘└─┘└─┘                        ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("    ====================================================================================================   ");
+            Console.WriteLine("    ||                                                                                                ||   ");
+            Console.WriteLine("    ||    Incomplete dominance is when two different alleles combine and create a blended trait in    ||   ");
+            Console.WriteLine("    ||          the offspring, rather than one trait hiding the other or both showing fully.          ||   ");
+            Console.WriteLine("    ||                                                                                                ||   ");
+            Console.WriteLine("    ====================================================================================================   ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                    (Enter any key to back in menu)                                        ");
+            Console.WriteLine("                                                                                                           ");
+
+
             Console.ReadKey();
         }
 
         static void Inheritance5()
         {
             Console.Clear();
-            Console.WriteLine("             [ 5 ] Sex-Linked Inheritance");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                          ╔═╗┌─┐─┐ ┬   ┬  ┬┌┐┌┬┌─┌─┐┌┬┐                                    ");
+            Console.WriteLine("                                          ╚═╗├┤ ┌┴┬┘───│  ││││├┴┐├┤  ││                                    ");
+            Console.WriteLine("                                          ╚═╝└─┘┴ └─   ┴─┘┴┘└┘┴ ┴└─┘─┴┘                                    ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("    ====================================================================================================   ");
+            Console.WriteLine("    ||                                                                                                ||   ");
+            Console.WriteLine("    ||    Sex-linked inheritance refers to genes located on the sex chromosomes (X and Y). Traits     ||   ");
+            Console.WriteLine("    ||     associated with these genes are inherited differently in males and females due to the      ||   ");
+            Console.WriteLine("    ||             difference in their sex chromosomes (XX for females and XY for males).             ||   ");
+            Console.WriteLine("    ||                                                                                                ||   ");
+            Console.WriteLine("    ====================================================================================================   ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                    (Enter any key to back in menu)                                        ");
+            Console.WriteLine("                                                                                                           ");
             Console.ReadKey();
         }
 
         static void Inheritance6()
         {
             Console.Clear();
-            Console.WriteLine("             [ 6 ] Mitochondrial Inheritance");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                   ╔╦╗┬┌┬┐┌─┐┌─┐┬ ┬┌─┐┌┐┌┌┬┐┬─┐┬┌─┐┬    ╦┌┐┌┬ ┬┌─┐┬─┐┬┌┬┐┌─┐┌┐┌┌─┐┌─┐                      ");
+            Console.WriteLine("                   ║║║│ │ │ ││  ├─┤│ ││││ ││├┬┘│├─┤│    ║│││├─┤├┤ ├┬┘│ │ ├─┤││││  ├┤                       ");
+            Console.WriteLine("                   ╩ ╩┴ ┴ └─┘└─┘┴ ┴└─┘┘└┘─┴┘┴└─┴┴ ┴┴─┘  ╩┘└┘┴ ┴└─┘┴└─┴ ┴ ┴ ┴┘└┘└─┘└─┘                      ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("    ====================================================================================================   ");
+            Console.WriteLine("    ||                                                                                                ||   ");
+            Console.WriteLine("    ||    Mitochondrial inheritance, also known as maternal inheritance, refers to the transmission   ||   ");
+            Console.WriteLine("    ||    of genes located in the mitochondria, which are small energy-producing structures outside   ||   ");
+            Console.WriteLine("    ||      the nucleus of cells. Mitochondrial DNA (mtDNA) is inherited only from the mother, as     ||   ");
+            Console.WriteLine("    ||                mitochondria in sperm are typically lost during fertilization.                  ||   ");
+            Console.WriteLine("    ||                                                                                                ||   ");
+            Console.WriteLine("    ====================================================================================================   ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                    (Enter any key to back in menu)                                        ");
+            Console.WriteLine("                                                                                                           ");
             Console.ReadKey();
         }
 
@@ -235,19 +301,38 @@ namespace Project__1
             do
             {
                 Console.Clear();
-                Console.WriteLine("More Information About DNA and Genes:");
-                Console.WriteLine("             [ 1 ] Introduction to DNA");
-                Console.WriteLine("             [ 2 ] Genes and Their Functions");
-                Console.WriteLine("             [ 3 ] DNA Replication");
-                Console.WriteLine("             [ 4 ] Gene Expression and Regulation");
-                Console.WriteLine("             [ 5 ] Genetic Variation");
-                Console.WriteLine("             [ 6 ] Inheritance Patterns");
-                Console.WriteLine("             [ 7 ] Genetic Technologies");
-                Console.WriteLine("             [ 8 ] Human Genome Project");
-                Console.WriteLine("             [ 9 ] Ethical Considerations in Genetics");
-                Console.WriteLine("             [ 10 ] Future of Genetics");
-                Console.WriteLine("             [ 0 ] Go Back");
-                Console.Write("Choose an option: ");
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("                                                                                             ");
+                Console.WriteLine("                                                                                             ");
+                Console.WriteLine("                ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗               ");
+                Console.WriteLine("               ██╔════╝ ██╔════╝████╗  ██║██╔════╝╚══██╔══╝██║██╔════╝██╔════╝               ");
+                Console.WriteLine("               ██║  ███╗█████╗  ██╔██╗ ██║█████╗     ██║   ██║██║     ███████╗               ");
+                Console.WriteLine("               ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝     ██║   ██║██║     ╚════██║               ");
+                Console.WriteLine("               ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║               ");
+                Console.WriteLine("                ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝               ");
+                Console.WriteLine("                                                                                             ");
+                Console.WriteLine("                                                                                             ");
+                Console.ForegroundColor = ConsoleColor.DarkCyan;
+                Console.WriteLine("               =================================================================             ");
+                Console.WriteLine("               ||                                                             ||             ");
+                Console.WriteLine("               ||             More Information About DNA and Genes:           ||             ");
+                Console.WriteLine("               ||                                                             ||             ");
+                Console.WriteLine("               ||             [ 1 ] Introduction to DNA                       ||             ");
+                Console.WriteLine("               ||             [ 2 ] Genes and Their Functions                 ||             ");
+                Console.WriteLine("               ||             [ 3 ] DNA Replication                           ||             ");
+                Console.WriteLine("               ||             [ 4 ] Gene Expression and Regulation            ||             ");
+                Console.WriteLine("               ||             [ 5 ] Genetic Variation                         ||             ");
+                Console.WriteLine("               ||             [ 6 ] Inheritance Patterns                      ||             ");
+                Console.WriteLine("               ||             [ 7 ] Genetic Technologies                      ||             ");
+                Console.WriteLine("               ||             [ 8 ] Human Genome Project                      ||             ");
+                Console.WriteLine("               ||             [ 9 ] Ethical Considerations in Genetics        ||             ");
+                Console.WriteLine("               ||             [ 10 ] Future of Genetics                       ||             ");
+                Console.WriteLine("               ||             [ 0 ] Go Back                                   ||             ");
+                Console.WriteLine("               ||                                                             ||             ");
+                Console.WriteLine("               =================================================================             ");
+                Console.WriteLine("");
+                Console.WriteLine("");
+                Console.Write("               Choose an option: ");
                 subOption = Convert.ToInt32(Console.ReadLine());
 
                 switch (subOption)
@@ -270,21 +355,75 @@ namespace Project__1
         static void DNAIntroduction()
         {
             Console.Clear();
-            Console.WriteLine("Introduction to DNA");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                          ╦┌┐┌┌┬┐┬─┐┌─┐┌┬┐┬ ┬┌─┐┌┬┐┬┌─┐┌┐┌  ┌┬┐┌─┐  ╔╦╗╔╗╔╔═╗                              ");
+            Console.WriteLine("                          ║│││ │ ├┬┘│ │ │││ ││   │ ││ ││││   │ │ │   ║║║║║╠═╣                              ");
+            Console.WriteLine("                          ╩┘└┘ ┴ ┴└─└─┘─┴┘└─┘└─┘ ┴ ┴└─┘┘└┘   ┴ └─┘  ═╩╝╝╚╝╩ ╩                              ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("    ====================================================================================================   ");
+            Console.WriteLine("    ||                                                                                                ||   ");
+            Console.WriteLine("    ||     DNA, or deoxyribonucleic acid, is the molecule that contains the genetic information       ||   ");
+            Console.WriteLine("    ||    necessary for life. It’s found in nearly all living organisms, serving as the blueprint     ||   ");
+            Console.WriteLine("    ||    for building, maintaining, and replicating cells. DNA resides mainly in the cell nucleus    ||   ");
+            Console.WriteLine("    ||    (in eukaryotic cells) and carries instructions for protein synthesis, which determines an   ||   ");
+            Console.WriteLine("    ||                      organism's structure, function, and development.                          ||   ");
+            Console.WriteLine("    ||                                                                                                ||   ");
+            Console.WriteLine("    ====================================================================================================   ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                    (Enter any key to back in menu)                                        ");
+            Console.WriteLine("                                                                                                           ");
+
             Console.ReadKey();
         }
 
         static void GenesFunctions()
         {
             Console.Clear();
-            Console.WriteLine("Genes and Their Functions");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                     ╔═╗┌─┐┌┐┌┌─┐┌─┐  ┌─┐┌┐┌┌┬┐  ╔╦╗┬ ┬┌─┐┬┬─┐  ╔═╗┬ ┬┌┐┌┌─┐┌┬┐┬┌─┐┌┐┌┌─┐                  ");
+            Console.WriteLine("                     ║ ╦├┤ │││├┤ └─┐  ├─┤│││ ││   ║ ├─┤├┤ │├┬┘  ╠╣ │ │││││   │ ││ ││││└─┐                  ");
+            Console.WriteLine("                     ╚═╝└─┘┘└┘└─┘└─┘  ┴ ┴┘└┘─┴┘   ╩ ┴ ┴└─┘┴┴└─  ╚  └─┘┘└┘└─┘ ┴ ┴└─┘┘└┘└─┘                  ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("    ====================================================================================================   ");
+            Console.WriteLine("    ||                                                                                                ||   ");
+            Console.WriteLine("    ||     Genes are segments of DNA that act as instructions for building proteins and regulating    ||   ");
+            Console.WriteLine("    ||   various biological processes within an organism. Each gene is made up of a specific sequence ||   ");
+            Console.WriteLine("    ||    of nucleotide bases (adenine, thymine, cytosine, and guanine), which determines its unique  ||   ");
+            Console.WriteLine("    ||                         function and the specific proteins it produces.                        ||   ");
+            Console.WriteLine("    ||                                                                                                ||   ");
+            Console.WriteLine("    ====================================================================================================   ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                    (Enter any key to back in menu)                                        ");
+            Console.WriteLine("                                                                                                           ");
+
             Console.ReadKey();
         }
 
         static void DNAReplication()
         {
             Console.Clear();
-            Console.WriteLine("DNA Replication");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                  ╔╦╗╔╗╔╔═╗  ╦═╗┌─┐┌─┐┬  ┬┌─┐┌─┐┌┬┐┬┌─┐┌┐┌                                 ");
+            Console.WriteLine("                                   ║║║║║╠═╣  ╠╦╝├┤ ├─┘│  ││  ├─┤ │ ││ ││││                                 ");
+            Console.WriteLine("                                  ═╩╝╝╚╝╩ ╩  ╩╚═└─┘┴  ┴─┘┴└─┘┴ ┴ ┴ ┴└─┘┘└┘                                 ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("    ====================================================================================================   ");
+            Console.WriteLine("    ||                                                                                                ||   ");
+            Console.WriteLine("    ||     DNA replication is the process by which a cell makes an identical copy of its DNA,         ||   ");
+            Console.WriteLine("    ||   ensuring that each new cell receives the same genetic information as the original. This      ||   ");
+            Console.WriteLine("    ||   process is essential during cell division, allowing genetic information to be passed on      ||   ");
+            Console.WriteLine("    ||                  accurately from one generation of cells to the next.                          ||   ");
+            Console.WriteLine("    ||                                                                                                ||   ");
+            Console.WriteLine("    ====================================================================================================   ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                    (Enter any key to back in menu)                                        ");
+            Console.WriteLine("                                                                                                           ");
             Console.ReadKey();
         }
 
@@ -292,6 +431,24 @@ namespace Project__1
         {
             Console.Clear();
             Console.WriteLine("Gene Expression and Regulation");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("             ╔═╗┌─┐┌┐┌┌─┐  ╔═╗─┐ ┬┌─┐┬─┐┌─┐┌─┐┌─┐┬┌─┐┌┐┌  ┌─┐┌┐┌┌┬┐  ╦═╗┌─┐┌─┐┬ ┬┬  ┌─┐┌┬┐┬┌─┐┌┐┌          ");
+            Console.WriteLine("             ║ ╦├┤ │││├┤   ║╣ ┌┴┬┘├─┘├┬┘├┤ └─┐└─┐││ ││││  ├─┤│││ ││  ╠╦╝├┤ │ ┬│ ││  ├─┤ │ ││ ││││          ");
+            Console.WriteLine("             ╚═╝└─┘┘└┘└─┘  ╚═╝┴ └─┴  ┴└─└─┘└─┘└─┘┴└─┘┘└┘  ┴ ┴┘└┘─┴┘  ╩╚═└─┘└─┘└─┘┴─┘┴ ┴ ┴ ┴└─┘┘└┘          ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("    ====================================================================================================   ");
+            Console.WriteLine("    ||                                                                                                ||   ");
+            Console.WriteLine("    ||      Gene expression and regulation refer to the processes by which genes are activated,       ||   ");
+            Console.WriteLine("    ||     transcribed, and translated into proteins, and the mechanisms that control when, where,    ||   ");
+            Console.WriteLine("    ||      and how much of a gene product (usually a protein) is made. Proper gene regulation is     ||   ");
+            Console.WriteLine("    ||               essential for development, adaptation, and cellular function.                    ||   ");
+            Console.WriteLine("    ||                                                                                                ||   ");
+            Console.WriteLine("    ====================================================================================================   ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                    (Enter any key to back in menu)                                        ");
+            Console.WriteLine("                                                                                                           ");
             Console.ReadKey();
         }
 
@@ -299,6 +456,25 @@ namespace Project__1
         {
             Console.Clear();
             Console.WriteLine("Genetic Variation");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("             ╔═╗┌─┐┌┐┌┌─┐  ╔═╗─┐ ┬┌─┐┬─┐┌─┐┌─┐┌─┐┬┌─┐┌┐┌  ┌─┐┌┐┌┌┬┐  ╦═╗┌─┐┌─┐┬ ┬┬  ┌─┐┌┬┐┬┌─┐┌┐┌          ");
+            Console.WriteLine("             ║ ╦├┤ │││├┤   ║╣ ┌┴┬┘├─┘├┬┘├┤ └─┐└─┐││ ││││  ├─┤│││ ││  ╠╦╝├┤ │ ┬│ ││  ├─┤ │ ││ ││││          ");
+            Console.WriteLine("             ╚═╝└─┘┘└┘└─┘  ╚═╝┴ └─┴  ┴└─└─┘└─┘└─┘┴└─┘┘└┘  ┴ ┴┘└┘─┴┘  ╩╚═└─┘└─┘└─┘┴─┘┴ ┴ ┴ ┴└─┘┘└┘          ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("    ====================================================================================================   ");
+            Console.WriteLine("    ||                                                                                                ||   ");
+            Console.WriteLine("    ||      Gene expression and regulation refer to the processes by which genes are activated,       ||   ");
+            Console.WriteLine("    ||     transcribed, and translated into proteins, and the mechanisms that control when, where,    ||   ");
+            Console.WriteLine("    ||      and how much of a gene product (usually a protein) is made. Proper gene regulation is     ||   ");
+            Console.WriteLine("    ||               essential for development, adaptation, and cellular function.                    ||   ");
+            Console.WriteLine("    ||                                                                                                ||   ");
+            Console.WriteLine("    ====================================================================================================   ");
+            Console.WriteLine("                                                                                                           ");
+            Console.WriteLine("                                    (Enter any key to back in menu)                                        ");
+            Console.WriteLine("                                                                                                           ");
+
             Console.ReadKey();
         }
 
