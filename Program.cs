@@ -1,11 +1,11 @@
-﻿//Franco Gregorio
-// BSIS 1-2
+﻿//Franco Gregorio System;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace Project__1
 {
@@ -22,35 +22,34 @@ namespace Project__1
                 Console.Clear();
                 SpinAnimation();
                 Console.Clear();
-                Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine("                                                                                      ");
-                Console.WriteLine("                                                                                      ");
-                Console.WriteLine("            ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗            ");
-                Console.WriteLine("           ██╔════╝ ██╔════╝████╗  ██║██╔════╝╚══██╔══╝██║██╔════╝██╔════╝            ");
-                Console.WriteLine("           ██║  ███╗█████╗  ██╔██╗ ██║█████╗     ██║   ██║██║     ███████╗            ");
-                Console.WriteLine("           ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝     ██║   ██║██║     ╚════██║            ");
-                Console.WriteLine("           ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║            ");
-                Console.WriteLine("            ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝            ");
-                Console.WriteLine("                                                                                      ");
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                Console.WriteLine("           ================================================================           ");
-                Console.WriteLine("           ||                                                            ||           ");
-                Console.WriteLine("           ||                       Genetics Menu:                       ||           ");
-                Console.WriteLine("           ||                                                            ||           ");
-                Console.WriteLine("           ||      [ 1 ] What is Genetics                                ||           ");
-                Console.WriteLine("           ||      [ 2 ] Types of Genetic Inheritance                    ||           ");
-                Console.WriteLine("           ||      [ 3 ] More Information About DNA and Genes            ||           ");
-                Console.WriteLine("           ||      [ 4 ] Chromosomes and Their Function                  ||           ");
-                Console.WriteLine("           ||      [ 5 ] Genetic Mutations                               ||           ");
-                Console.WriteLine("           ||      [ 6 ] Gene Editing (CRISPR and Other Technologies)    ||           ");
-                Console.WriteLine("           ||      [ 7 ] Human Genome Project                            ||           ");
-                Console.WriteLine("           ||      [ 8 ] Epigenetics                                     ||           ");
-                Console.WriteLine("           ||      [ 9 ] Evolution and Genetics                          ||           ");
-                Console.WriteLine("           ||      [ 0 ] Exit                                            ||           ");
-                Console.WriteLine("           ||                                                            ||           ");
-                Console.WriteLine("           ================================================================           ");
-                Console.WriteLine("                                                                                      ");
-                Console.WriteLine("                                                                                      ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("                              ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗                           ");
+                Console.WriteLine("                             ██╔════╝ ██╔════╝████╗  ██║██╔════╝╚══██╔══╝██║██╔════╝██╔════╝                           ");
+                Console.WriteLine("                             ██║  ███╗█████╗  ██╔██╗ ██║█████╗     ██║   ██║██║     ███████╗                           ");
+                Console.WriteLine("                             ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝     ██║   ██║██║     ╚════██║                           ");
+                Console.WriteLine("                             ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║                           ");
+                Console.WriteLine("                              ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝                           ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("        ====================================================================================================           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ||                                            Genetics Menu:                                      ||           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ||                           [ 1 ] What is Genetics                                               ||           ");
+                Console.WriteLine("        ||                           [ 2 ] Types of Genetic Inheritance                                   ||           ");
+                Console.WriteLine("        ||                           [ 3 ] More Information About DNA and Genes                           ||           ");
+                Console.WriteLine("        ||                           [ 4 ] Chromosomes and Their Function                                 ||           ");
+                Console.WriteLine("        ||                           [ 5 ] Genetic Mutations                                              ||           ");
+                Console.WriteLine("        ||                           [ 6 ] Gene Editing (CRISPR and Other Technologies)                   ||           ");
+                Console.WriteLine("        ||                           [ 7 ] Human Genome Project                                           ||           ");
+                Console.WriteLine("        ||                           [ 8 ] Epigenetics                                                    ||           ");
+                Console.WriteLine("        ||                           [ 9 ] Evolution and Genetics                                         ||           ");
+                Console.WriteLine("        ||                           [ 0 ] Exit                                                           ||           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ====================================================================================================           ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("                                                                                                                       ");
                 Console.Write("                        Choose an option: ");
                 chosenOne = Convert.ToInt32(Console.ReadLine());
 
@@ -75,28 +74,103 @@ namespace Project__1
 
         static void SpinAnimation()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
-            string[] frames = new string[]
-       {
-            "  O     O  \n   \\   /   \n    O-O    \n   /   \\   \n  O     O  \n   \\   /   \n    O-O    \n   /   \\   \n  O     O  \n   \\   /   \n    O-O    \n   /   \\   \n  O     O  \n   \\   /   \n    O-O    \n   /   \\   ",
-            "   O     O  \n    \\   /   \n     O-O    \n    /   \\   \n   O     O  \n    \\   /   \n     O-O    \n    /   \\   \n   O     O  \n    \\   /   \n     O-O    \n    /   \\   \n   O     O  \n    \\   /   \n     O-O    \n    /   \\   ",
-            "    O     O  \n     \\   /   \n      O-O    \n     /   \\   \n    O     O  \n     \\   /   \n      O-O    \n     /   \\   \n    O     O  \n     \\   /   \n      O-O    \n     /   \\   \n    O     O  \n     \\   /   \n      O-O    \n     /   \\   ",
-            "   O     O   \n   \\   /     \n   O-O       \n   /   \\     \n  O     O    \n   \\   /     \n   O-O       \n   /   \\     \n  O     O    \n   \\   /     \n   O-O       \n   /   \\     \n  O     O    \n   \\   /     \n   O-O       \n   /   \\     ",
-            "  O     O    \n   \\   /     \n    O-O      \n   /   \\     \n  O     O    \n   \\   /     \n    O-O      \n   /   \\     \n  O     O    \n   \\   /     \n    O-O      \n   /   \\     \n  O     O    \n   \\   /     \n    O-O      \n   /   \\     "
-       };
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
-            for (int i = 0; i < 5; i++) // Loop to repeat the animation
+            string[] frames = new string[]
+            {
+            "        ====================================================================================================     \n" +
+            "                                                  O     O          \n" +
+            "                                                   \\   /          \n" +
+            "                                                    O-O            \n" +
+            "                                                   /   \\          \n" +
+            "                                                  O     O          \n" +
+            "                                                   \\   /          \n" +
+            "                                                    O-O            \n" +
+            "                                                   /   \\          \n" +
+            "                                                  O     O          \n" +
+            "                                                   \\   /          \n" +
+            "                                                    O-O            \n" +
+            "                                                   /   \\          \n" +
+            "                                                  O     O          \n" +
+            "                                                   \\   /          \n" +
+            "                                                    O-O            \n" +
+            "                                                   /   \\          \n" +
+            "        ====================================================================================================  ",
+
+
+            "        ====================================================================================================     \n" +
+            "                                                   O     O         \n" +
+            "                                                    \\   /         \n" +
+            "                                                     O-O           \n" +
+            "                                                    /   \\         \n" +
+            "                                                   O     O         \n" +
+            "                                                    \\   /         \n" +
+            "                                                     O-O           \n" +
+            "                                                    /   \\         \n" +
+            "                                                   O     O         \n" +
+            "                                                    \\   /         \n" +
+            "                                                     O-O           \n" +
+            "                                                    /   \\         \n" +
+            "                                                   O     O         \n" +
+            "                                                    \\   /         \n" +
+            "                                                     O-O           \n" +
+            "                                                    /   \\         \n" +
+            "        ====================================================================================================  ",
+
+
+            "        ====================================================================================================     \n" +
+            "                                                    O     O        \n" +
+            "                                                     \\   /        \n" +
+            "                                                      O-O          \n" +
+            "                                                     /   \\        \n" +
+            "                                                    O     O        \n" +
+            "                                                     \\   /        \n" +
+            "                                                      O-O          \n" +
+            "                                                     /   \\        \n" +
+            "                                                    O     O        \n" +
+            "                                                     \\   /        \n" +
+            "                                                      O-O          \n" +
+            "                                                     /   \\        \n" +
+            "                                                    O     O        \n" +
+            "                                                     \\   /        \n" +
+            "                                                      O-O          \n" +
+            "                                                     /   \\        \n" +
+            "        ====================================================================================================  ",
+
+
+            "        ====================================================================================================     \n" +
+            "                                                   O     O         \n" +
+            "                                                   \\   /          \n" +
+            "                                                   O-O             \n" +
+            "                                                   /   \\          \n" +
+            "                                                   O     O         \n" +
+            "                                                   \\   /          \n" +
+            "                                                   O-O             \n" +
+            "                                                   /   \\          \n" +
+            "                                                   O     O         \n" +
+            "                                                   \\   /          \n" +
+            "                                                   O-O             \n" +
+            "                                                   /   \\          \n" +
+            "                                                   O     O         \n" +
+            "                                                   \\   /          \n" +
+            "                                                   O-O             \n" +
+            "                                                   /   \\          \n" +
+            "        ====================================================================================================  ",
+
+            };
+
+            for (int i = 0; i < 5; i++)
             {
                 foreach (var frame in frames)
                 {
-                    Console.Clear(); // Clear the console for the next frame
+                    Console.Clear(); // Cle the next frame
                     Console.WriteLine(frame);
-                    Console.WriteLine("Genetics Loading...");
-                    Thread.Sleep(200); // Wait for 200 milliseconds
+                    Console.WriteLine("                                            Genetics Loading...");
+                    Thread.Sleep(200); // Wait fo
                 }
             }
-
-            Console.WriteLine("Animation complete.");
+            Console.Clear();
+            Console.WriteLine("Genetics Menu Complete!");
         }
 
 
@@ -134,36 +208,34 @@ namespace Project__1
             do
             {
                 Console.Clear();
-                Console.ForegroundColor = ConsoleColor.Red;
+                Console.ForegroundColor = ConsoleColor.DarkRed;
                 AnimateGeneticInheritance();
                 Console.Clear();
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗               ");
-                Console.WriteLine("               ██╔════╝ ██╔════╝████╗  ██║██╔════╝╚══██╔══╝██║██╔════╝██╔════╝               ");
-                Console.WriteLine("               ██║  ███╗█████╗  ██╔██╗ ██║█████╗     ██║   ██║██║     ███████╗               ");
-                Console.WriteLine("               ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝     ██║   ██║██║     ╚════██║               ");
-                Console.WriteLine("               ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║               ");
-                Console.WriteLine("                ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝               ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
-                Console.ForegroundColor = ConsoleColor.DarkRed;
-                Console.WriteLine("           =======================================================================           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           ||                    Types of Genetic Inheritance:                  ||           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           ||              [ 1 ] Dominant Inheritance                           ||           ");
-                Console.WriteLine("           ||              [ 2 ] Recessive Inheritance                          ||           ");
-                Console.WriteLine("           ||              [ 3 ] Co-Dominance                                   ||           ");
-                Console.WriteLine("           ||              [ 4 ] Incomplete Dominance                           ||           ");
-                Console.WriteLine("           ||              [ 5 ] Sex-Linked Inheritance                         ||           ");
-                Console.WriteLine("           ||              [ 6 ] Mitochondrial Inheritance                      ||           ");
-                Console.WriteLine("           ||              [ 0 ] Go Back                                        ||           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           =======================================================================           ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
-                Console.Write("                           Choose an option: ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("                              ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗                           ");
+                Console.WriteLine("                             ██╔════╝ ██╔════╝████╗  ██║██╔════╝╚══██╔══╝██║██╔════╝██╔════╝                           ");
+                Console.WriteLine("                             ██║  ███╗█████╗  ██╔██╗ ██║█████╗     ██║   ██║██║     ███████╗                           ");
+                Console.WriteLine("                             ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝     ██║   ██║██║     ╚════██║                           ");
+                Console.WriteLine("                             ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║                           ");
+                Console.WriteLine("                              ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝                           ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("        ====================================================================================================           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ||                                        Types of Genetic Inheritance                            ||           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ||                           [ 1 ] Dominant Inheritance                                           ||           ");
+                Console.WriteLine("        ||                           [ 2 ] Recessive Inheritance                                          ||           ");
+                Console.WriteLine("        ||                           [ 3 ] Co-Dominance                                                   ||           ");
+                Console.WriteLine("        ||                           [ 4 ] Incomplete Dominance                                           ||           ");
+                Console.WriteLine("        ||                           [ 5 ] Sex-Linked Inheritance                                         ||           ");
+                Console.WriteLine("        ||                           [ 6 ] Mitochondrial Inheritance                                      ||           ");
+                Console.WriteLine("        ||                           [ 0 ] Go Back                                                        ||           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ====================================================================================================           ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.Write("                        Choose an option: ");
 
                 subOption = Convert.ToInt32(Console.ReadLine());
 
@@ -186,51 +258,63 @@ namespace Project__1
         {
             string[] frames = new string[]
             {
-            " Parent 1 (Alleles: A, a)          Parent 2 (Alleles: A, a)\n" +
-            "         |                                  |\n" +
-            "         |                                  |\n" +
-            "         |                                  |\n" +
-            "        [A]                                [a]",
+"        ====================================================================================================     \n" +
+    "                           Parent 1 (Alleles: A, a)          Parent 2 (Alleles: A, a)\n" +
+    "                                  |                                  |\n" +
+    "                                  |                                  |\n" +
+    "                                  |                                  |\n" +
+    "                                  |                                  |\n" +
+    "                                  [A]                                [a]\n" +
+    "        ====================================================================================================  ",
 
-            " Parent 1 (Alleles: A, a)          Parent 2 (Alleles: A, a)\n" +
-            "         |                                  |\n" +
-            "         |                                  |\n" +
-            "         |                                  |\n" +
-            "         |                                  |\n" +
-            "        [A]                                [a]\n" +
-            "          \\                                /\n" +
-            "           \\                              /\n" +
-            "            \\                            /\n" +
-            "             \\                          /\n" +
-            "              \\                        /\n" +
-            "               Offspring Alleles: [A, a]",
+    "        ====================================================================================================  \n" +
+    "                           Parent 1 (Alleles: A, a)          Parent 2 (Alleles: A, a)\n" +
+    "                                   |                                  |\n" +
+    "                                   |                                  |\n" +
+    "                                   |                                  |\n" +
+    "                                   |                                  |\n" +
+    "                                  [A]                                [a]\n" +
+    "                                    \\                                /\n" +
+    "                                     \\                              /\n" +
+    "                                      \\                            /\n" +
+    "                                       \\                          /\n" +
+    "                                         \\                        /\n" +
+    "                                         Offspring Alleles: [A, a]\n" +
+    "        ====================================================================================================  ",
 
-            " Parent 1 (Alleles: A, a)          Parent 2 (Alleles: A, a)\n" +
-            "         |                                  |\n" +
-            "        [A]                                [A]\n" +
-            "          \\                                /\n" +
-            "           \\                              /\n" +
-            "            \\                            /\n" +
-            "             \\                          /\n" +
-            "               Offspring Alleles: [A, A]",
+    "        ====================================================================================================  \n" +
+    "                           Parent 1 (Alleles: A, a)          Parent 2 (Alleles: A, a)\n" +
+    "                                   |                                  |\n" +
+    "                                  [A]                                [A]\n" +
+    "                                    \\                                /\n" +
+    "                                     \\                              /\n" +
+    "                                      \\                            /\n" +
+    "                                       \\                          /\n" +
+    "                                         Offspring Alleles: [A, A]\n" +
+    "        ====================================================================================================  ",
 
-            " Parent 1 (Alleles: A, a)          Parent 2 (Alleles: A, a)\n" +
-            "         |                                  |\n" +
-            "        [a]                                [A]\n" +
-            "          \\                                /\n" +
-            "           \\                              /\n" +
-            "            \\                            /\n" +
-            "             \\                          /\n" +
-            "               Offspring Alleles: [a, A]",
+    "        ====================================================================================================  \n" +
+    "                           Parent 1 (Alleles: A, a)          Parent 2 (Alleles: A, a)\n" +
+    "                                   |                                  |\n" +
+    "                                  [a]                                [A]\n" +
+    "                                    \\                                /\n" +
+    "                                     \\                              /\n" +
+    "                                      \\                            /\n" +
+    "                                       \\                          /\n" +
+    "                                         Offspring Alleles: [a, A]\n" +
+    "        ====================================================================================================  ",
 
-            " Parent 1 (Alleles: A, a)          Parent 2 (Alleles: A, a)\n" +
-            "         |                                  |\n" +
-            "        [a]                                [a]\n" +
-            "          \\                                /\n" +
-            "           \\                              /\n" +
-            "            \\                            /\n" +
-            "             \\                          /\n" +
-            "               Offspring Alleles: [a, a]"
+    "        ====================================================================================================  \n" +
+    "                           Parent 1 (Alleles: A, a)          Parent 2 (Alleles: A, a)\n" +
+    "                                   |                                  |\n" +
+    "                                  [a]                                [a]\n" +
+    "                                    \\                                /\n" +
+    "                                     \\                              /\n" +
+    "                                      \\                            /\n" +
+    "                                       \\                          /\n" +
+    "                                         Offspring Alleles: [a, a]\n" +
+    "        ====================================================================================================  ",
+
             };
 
             for (int i = 0; i < 1; i++)
@@ -240,11 +324,13 @@ namespace Project__1
                     Console.Clear();
                     Console.WriteLine(frame);
                     Console.WriteLine("");
-                    Console.WriteLine("===================================================");
-                    Console.WriteLine("          Genetic Inheritance Loading...");
+                    Console.WriteLine("                                        Genetic Inheritance Loading...");
                     Thread.Sleep(1000);
                 }
             }
+            Console.Clear();
+            Console.WriteLine("Genetic Inheritance Complete!");
+
         }
 
         static void Inheritance1()
@@ -402,40 +488,38 @@ namespace Project__1
             do
             {
                 Console.Clear();
-                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.ForegroundColor = ConsoleColor.DarkCyan;
                 AnimateDNAAndGenes();
                 Console.Clear();
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗               ");
-                Console.WriteLine("               ██╔════╝ ██╔════╝████╗  ██║██╔════╝╚══██╔══╝██║██╔════╝██╔════╝               ");
-                Console.WriteLine("               ██║  ███╗█████╗  ██╔██╗ ██║█████╗     ██║   ██║██║     ███████╗               ");
-                Console.WriteLine("               ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝     ██║   ██║██║     ╚════██║               ");
-                Console.WriteLine("               ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║               ");
-                Console.WriteLine("                ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝               ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
-                Console.ForegroundColor = ConsoleColor.DarkCyan;
-                Console.WriteLine("               =================================================================             ");
-                Console.WriteLine("               ||                                                             ||             ");
-                Console.WriteLine("               ||             More Information About DNA and Genes:           ||             ");
-                Console.WriteLine("               ||                                                             ||             ");
-                Console.WriteLine("               ||             [ 1 ] Introduction to DNA                       ||             ");
-                Console.WriteLine("               ||             [ 2 ] Genes and Their Functions                 ||             ");
-                Console.WriteLine("               ||             [ 3 ] DNA Replication                           ||             ");
-                Console.WriteLine("               ||             [ 4 ] Gene Expression and Regulation            ||             ");
-                Console.WriteLine("               ||             [ 5 ] Genetic Variation                         ||             ");
-                Console.WriteLine("               ||             [ 6 ] Inheritance Patterns                      ||             ");
-                Console.WriteLine("               ||             [ 7 ] Genetic Technologies                      ||             ");
-                Console.WriteLine("               ||             [ 8 ] Human Genome Project                      ||             ");
-                Console.WriteLine("               ||             [ 9 ] Ethical Considerations in Genetics        ||             ");
-                Console.WriteLine("               ||             [ 10 ] Future of Genetics                       ||             ");
-                Console.WriteLine("               ||             [ 0 ] Go Back                                   ||             ");
-                Console.WriteLine("               ||                                                             ||             ");
-                Console.WriteLine("               =================================================================             ");
-                Console.WriteLine("");
-                Console.WriteLine("");
-                Console.Write("               Choose an option: ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("                              ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗                           ");
+                Console.WriteLine("                             ██╔════╝ ██╔════╝████╗  ██║██╔════╝╚══██╔══╝██║██╔════╝██╔════╝                           ");
+                Console.WriteLine("                             ██║  ███╗█████╗  ██╔██╗ ██║█████╗     ██║   ██║██║     ███████╗                           ");
+                Console.WriteLine("                             ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝     ██║   ██║██║     ╚════██║                           ");
+                Console.WriteLine("                             ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║                           ");
+                Console.WriteLine("                              ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝                           ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("        ====================================================================================================           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ||                                            Genetics Menu:                                      ||           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ||                           [ 1 ] What is Genetics                                               ||           ");
+                Console.WriteLine("        ||                           [ 2 ] Types of Genetic Inheritance                                   ||           ");
+                Console.WriteLine("        ||                           [ 3 ] More Information About DNA and Genes                           ||           ");
+                Console.WriteLine("        ||                           [ 4 ] Chromosomes and Their Function                                 ||           ");
+                Console.WriteLine("        ||                           [ 5 ] Genetic Mutations                                              ||           ");
+                Console.WriteLine("        ||                           [ 6 ] Gene Editing (CRISPR and Other Technologies)                   ||           ");
+                Console.WriteLine("        ||                           [ 7 ] Human Genome Project                                           ||           ");
+                Console.WriteLine("        ||                           [ 8 ] Epigenetics                                                    ||           ");
+                Console.WriteLine("        ||                           [ 9 ] Evolution and Genetics                                         ||           ");
+                Console.WriteLine("        ||                           [ 0 ] Exit                                                           ||           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ====================================================================================================           ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.Write("                        Choose an option: ");
+
                 subOption = Convert.ToInt32(Console.ReadLine());
 
                 switch (subOption)
@@ -459,53 +543,68 @@ namespace Project__1
 
         static void AnimateDNAAndGenes()
         {
-            // Array of frames for the DNA helix with gene sequences
+            // A the DNA helix with gene sequences
             string[] frames = new string[]
             {
-            "         A       T\n" +
-            "          \\     /\n" +
-            "           \\   /\n" +
-            "            C-G\n" +
-            "           /   \\\n" +
-            "          /     \\\n" +
-            "         T       A",
 
-            "         C       G\n" +
-            "          \\     /\n" +
-            "           \\   /\n" +
-            "            T-A\n" +
-            "           /   \\\n" +
-            "          /     \\\n" +
-            "         A       T",
+            "        ====================================================================================================  \n" +
+            "                                                  A       T\n" +
+            "                                                   \\     /\n" +
+            "                                                    \\   /\n" +
+            "                                                     C-G\n" +
+            "                                                    /   \\\n" +
+            "                                                   /     \\\n" +
+            "                                                  T       A\n"+
+            "        ====================================================================================================  ",
 
-            "         T       A\n" +
-            "          \\     /\n" +
-            "           \\   /\n" +
-            "            G-C\n" +
-            "           /   \\\n" +
-            "          /     \\\n" +
-            "         C       G",
 
-            "         G       C\n" +
-            "          \\     /\n" +
-            "           \\   /\n" +
-            "            A-T\n" +
-            "           /   \\\n" +
-            "          /     \\\n" +
-            "         T       A"
+            "        ====================================================================================================  \n" +
+            "                                                  C       G\n" +
+            "                                                   \\     /\n" +
+            "                                                    \\   /\n" +
+            "                                                     T-A\n" +
+            "                                                    /   \\\n" +
+            "                                                   /     \\\n" +
+            "                                                  A       T\n"+
+            "        ====================================================================================================  ",
+
+
+            "        ====================================================================================================  \n" +
+            "                                                  T       A\n" +
+            "                                                   \\     /\n" +
+            "                                                    \\   /\n" +
+            "                                                     G-C\n" +
+            "                                                    /   \\\n" +
+            "                                                   /     \\\n" +
+            "                                                  C       G\n"+
+            "        ====================================================================================================  ",
+
+
+            "        ====================================================================================================  \n" +
+            "                                                  G       C\n" +
+            "                                                   \\     /\n" +
+            "                                                    \\   /\n" +
+            "                                                     A-T\n" +
+            "                                                    /   \\\n" +
+            "                                                   /     \\\n" +
+            "                                                  T       A \n" +
+            "        ====================================================================================================  "
             };
 
-            // Loop through frames to create the animation effect
-            for (int i = 0; i < 3; i++) // Repeat the sequence for a longer animation
+            // Loop create the animation effect
+            for (int i = 0; i < 3; i++) // Repea a longer animation
             {
                 foreach (var frame in frames)
                 {
                     Console.Clear();
                     Console.WriteLine(frame);
-                    Console.WriteLine("DNA and Genes Loading..");
-                    Thread.Sleep(500); // Delay between frames to control animation speed
+                    Console.WriteLine("                                            DNA and Genes Loading..");
+                    Thread.Sleep(500); // Delay control animation speed
                 }
             }
+            Console.Clear();
+            Console.WriteLine("DNA and Genes Complete!");
+
         }
 
         static void DNAIntroduction()
@@ -761,7 +860,6 @@ namespace Project__1
 
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkBlue;
-            Console.WriteLine("Chromosomes and Their Function:");
             Console.WriteLine("                                                                                                           ");
             Console.WriteLine("                                                                                                           ");
             Console.WriteLine("             ╔═╗┬ ┬┬─┐┌─┐┌┬┐┌─┐┌─┐┌─┐┌┬┐┌─┐┌─┐  ┌─┐┌┐┌┌┬┐  ╔╦╗┬ ┬┌─┐┬┬─┐  ╔═╗┬ ┬┌┐┌┌─┐┌┬┐┬┌─┐┌┐┌           ");
@@ -796,34 +894,31 @@ namespace Project__1
             {
 
                 Console.Clear();
-                Console.ForegroundColor = ConsoleColor.Green;
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
                 AnimateGeneticMutations();
                 Console.Clear();
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗               ");
-                Console.WriteLine("               ██╔════╝ ██╔════╝████╗  ██║██╔════╝╚══██╔══╝██║██╔════╝██╔════╝               ");
-                Console.WriteLine("               ██║  ███╗█████╗  ██╔██╗ ██║█████╗     ██║   ██║██║     ███████╗               ");
-                Console.WriteLine("               ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝     ██║   ██║██║     ╚════██║               ");
-                Console.WriteLine("               ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║               ");
-                Console.WriteLine("                ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝               ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
-                Console.ForegroundColor = ConsoleColor.DarkGreen;
-                Console.WriteLine("           =======================================================================           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           ||                   Genetic Mutations:                              ||           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           ||                 [ 1 ] Types of Mutations                          ||           ");
-                Console.WriteLine("           ||                 [ 2 ] Causes of Mutations                         ||           ");
-                Console.WriteLine("           ||                 [ 3 ] Effects of Mutations                        ||           ");
-                Console.WriteLine("           ||                 [ 0 ] Go Back                                     ||           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           =======================================================================           ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
-
-                Console.Write("Choose an option: ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("                              ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗                           ");
+                Console.WriteLine("                             ██╔════╝ ██╔════╝████╗  ██║██╔════╝╚══██╔══╝██║██╔════╝██╔════╝                           ");
+                Console.WriteLine("                             ██║  ███╗█████╗  ██╔██╗ ██║█████╗     ██║   ██║██║     ███████╗                           ");
+                Console.WriteLine("                             ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝     ██║   ██║██║     ╚════██║                           ");
+                Console.WriteLine("                             ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║                           ");
+                Console.WriteLine("                              ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝                           ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("        ==================================================================================================          ");
+                Console.WriteLine("        ||                                                                                               ||         ");
+                Console.WriteLine("        ||                                       Genetic Mutations:                                      ||         ");
+                Console.WriteLine("        ||                                                                                               ||         ");
+                Console.WriteLine("        ||                                 [ 1 ] Types of Mutations                                      ||         ");
+                Console.WriteLine("        ||                                 [ 2 ] Causes of Mutations                                     ||         ");
+                Console.WriteLine("        ||                                 [ 3 ] Effects of Mutations                                    ||         ");
+                Console.WriteLine("        ||                                 [ 0 ] Go Back                                                 ||         ");
+                Console.WriteLine("        ||                                                                                               ||         ");
+                Console.WriteLine("        ==================================================================================================          ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.Write("                               Choose an option: ");
 
                 subOption = Convert.ToInt32(Console.ReadLine());
 
@@ -842,83 +937,103 @@ namespace Project__1
 
         static void AnimateGeneticMutations()
         {
-            // Array of frames to demonstrate genetic mutations using symbols
+            //  demonstrate genetic mutations using symbols
             string[] frames = new string[]
              {
-            "Original DNA Sequence:\n" +
-            "  A-T  C-G  A-T  G-C\n" +
-            "   |    |    |    |\n" +
-            "   |    |    |    |\n" +
-            "   A    T    A    G\n",
+            "        ====================================================================================================  \n" +
+            "                                              Original DNA Sequence:\n" +
+            "                                                A-T  C-G  A-T  G-C\n" +
+            "                                                 |    |    |    |\n" +
+            "                                                 |    |    |    |\n" +
+            "                                                 A    T    A    G\n"+
+            "        ====================================================================================================  ",
 
-            "Mutation 1:\n" +
-            "  A-T  C-G  A-T  G-C\n" +
-            "   |    |    |    |\n" +
-            "   |    |    |    |\n" +
-            "   A    T    G    G\n" +
-            "   (A-T changed to A-G)",
 
-            "Mutation 2:\n" +
-            "  A-T  C-G  A-T  G-C\n" +
-            "   |    |    |    |\n" +
-            "   |    |    |    |\n" +
-            "   A    T    G    T\n" +
-            "   (C-G changed to T-A)",
+            "        ====================================================================================================  \n" +
+            "                                              Mutation 1:\n" +
+            "                                                A-T  C-G  A-T  G-C\n" +
+            "                                                 |    |    |    |\n" +
+            "                                                 |    |    |    |\n" +
+            "                                                 A    T    G    G\n" +
+            "                                                 (A-T changed to A-G)\n" +
+            "        ====================================================================================================  ",
 
-            "Mutation 3:\n" +
-            "  A-T  C-G  A-T  G-C\n" +
-            "   |    |    |    |\n" +
-            "   |    |    |    |\n" +
-            "   T    T    G    T\n" +
-            "   (A-T changed to T-T)",
 
-            "Final Mutated DNA Sequence:\n" +
-            "  T-T  T-A  G-T  G-C\n" +
-            "   |    |    |    |\n" +
-            "   |    |    |    |\n" +
-            "   T    A    G    C\n"
+            "        ====================================================================================================  \n" +
+            "                                              Mutation 2:\n" +
+            "                                                A-T  C-G  A-T  G-C\n" +
+            "                                                 |    |    |    |\n" +
+            "                                                 |    |    |    |\n" +
+            "                                                 A    T    G    T\n" +
+            "                                                 (C-G changed to T-A)\n" +
+            "        ====================================================================================================  ",
+
+
+            "        ====================================================================================================  \n" +
+
+            "                                              Mutation 3:\n" +
+            "                                                A-T  C-G  A-T  G-C\n" +
+            "                                                 |    |    |    |\n" +
+            "                                                 |    |    |    |\n" +
+            "                                                 T    T    G    T\n" +
+            "                                                 (A-T changed to T-T)\n" +
+            "        ====================================================================================================  ",
+
+
+            "        ====================================================================================================  \n" +
+            "                                              Final Mutated DNA Sequence:\n" +
+            "                                                T-T  T-A  G-T  G-C\n" +
+            "                                                 |    |    |    |\n" +
+            "                                                 |    |    |    |\n" +
+            "                                                 T    A    G    C\n" +
+            "        ====================================================================================================  ",
+
+
         };
 
-            // Loop through frames to create the animation effect
-            for (int i = 0; i < 2; i++) // Repeat the sequence for a longer animation
+            // Loop create the animation effect
+            for (int i = 0; i < 2; i++) // Repea a longer animation
             {
                 foreach (var frame in frames)
                 {
                     Console.Clear();
                     Console.WriteLine(frame);
-                    Console.WriteLine("Genetic Mutations Loading...");
-                    Thread.Sleep(1000); // Delay between frames to control animation speed
+                    Console.WriteLine("                                                Genetic Mutations Loading...");
+                    Thread.Sleep(1000); // Delay control animation speed
                 }
             }
+            Console.Clear();
+            Console.WriteLine("Genetic Mutations Complete!");
         }
 
         static void TypesOfMutations()
         {
-            int subOption = 0; // Initialized to a non-zero value to enter the loop
+            int subOption = 0; // In-zero value to enter the loop
 
             do
             {
                 Console.Clear();
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                        ╔═╗┌─┐┌┐┌┌─┐┌┬┐┬┌─┐  ╔╦╗┬ ┬┌┬┐┌─┐┌┬┐┬┌─┐┌┐┌┌─┐                       ");
-                Console.WriteLine("                        ║ ╦├┤ │││├┤  │ ││    ║║║│ │ │ ├─┤ │ ││ ││││└─┐                       ");
-                Console.WriteLine("                        ╚═╝└─┘┘└┘└─┘ ┴ ┴└─┘  ╩ ╩└─┘ ┴ ┴ ┴ ┴ ┴└─┘┘└┘└─┘                       ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("           =======================================================================           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           ||                          Genetic Mutations:                       ||           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           ||                      [ 1 ] Point Mutations                        ||           ");
-                Console.WriteLine("           ||                      [ 2 ] Frameshift Mutations                   ||           ");
-                Console.WriteLine("           ||                      [ 3 ] Silent Mutations                       ||           ");
-                Console.WriteLine("           ||                      [ 4 ] Missense Mutations                     ||           ");
-                Console.WriteLine("           ||                      [ 5 ] Nonsense Mutations                     ||           ");
-                Console.WriteLine("           ||                      [ 6 ] Chromosomal Mutations                  ||           ");
-                Console.WriteLine("           ||                      [ 0 ] Go Back                                ||           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           =======================================================================           ");
-                Console.WriteLine("                                                                                             ");
-                Console.Write("           Choose an option: ");
+                Console.WriteLine("                                                                                                                        ");
+                Console.WriteLine("                                    ╔═╗┌─┐┌┐┌┌─┐┌┬┐┬┌─┐  ╔╦╗┬ ┬┌┬┐┌─┐┌┬┐┬┌─┐┌┐┌┌─┐                                      ");
+                Console.WriteLine("                                    ║ ╦├┤ │││├┤  │ ││    ║║║│ │ │ ├─┤ │ ││ ││││└─┐                                      ");
+                Console.WriteLine("                                    ╚═╝└─┘┘└┘└─┘ ┴ ┴└─┘  ╩ ╩└─┘ ┴ ┴ ┴ ┴ ┴└─┘┘└┘└─┘                                      ");
+                Console.WriteLine("                                                                                                                        ");
+                Console.WriteLine("        ==================================================================================================           ");
+                Console.WriteLine("        ||                                                                                              ||           ");
+                Console.WriteLine("        ||                                     Genetic Mutations:                                       ||           ");
+                Console.WriteLine("        ||                                                                                              ||           ");
+                Console.WriteLine("        ||                                [ 1 ] Point Mutations                                         ||           ");
+                Console.WriteLine("        ||                                [ 2 ] Frameshift Mutations                                    ||           ");
+                Console.WriteLine("        ||                                [ 3 ] Silent Mutations                                        ||           ");
+                Console.WriteLine("        ||                                [ 4 ] Missense Mutations                                      ||           ");
+                Console.WriteLine("        ||                                [ 5 ] Nonsense Mutations                                      ||           ");
+                Console.WriteLine("        ||                                [ 6 ] Chromosomal Mutations                                   ||           ");
+                Console.WriteLine("        ||                                [ 0 ] Go Back                                                 ||           ");
+                Console.WriteLine("        ||                                                                                              ||           ");
+                Console.WriteLine("        ==================================================================================================           ");
+                Console.WriteLine("                                                                                                                        ");
+                Console.Write("                               Choose an option: ");
+
                 subOption = Convert.ToInt32(Console.ReadLine());
                 switch (subOption)
                 {
@@ -1177,37 +1292,41 @@ namespace Project__1
             {
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗               ");
-                Console.WriteLine("               ██╔════╝ ██╔════╝████╗  ██║██╔════╝╚══██╔══╝██║██╔════╝██╔════╝               ");
-                Console.WriteLine("               ██║  ███╗█████╗  ██╔██╗ ██║█████╗     ██║   ██║██║     ███████╗               ");
-                Console.WriteLine("               ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝     ██║   ██║██║     ╚════██║               ");
-                Console.WriteLine("               ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║               ");
-                Console.WriteLine("                ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝               ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("           =======================================================================           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           ||                 Gene Editing (CRISPR and Other Technologies):     ||           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           ||                 [ 1 ] What is CRISPR?                             ||           ");
-                Console.WriteLine("           ||                 [ 2 ] How CRISPR Works                            ||           ");
-                Console.WriteLine("           ||                 [ 3 ] Applications of CRISPR in Medicine          ||           ");
-                Console.WriteLine("           ||                 [ 4 ] Gene Therapy and CRISPR                     ||           ");
-                Console.WriteLine("           ||                 [ 5 ] Ethical Issues in Gene Editing              ||           ");
-                Console.WriteLine("           ||                 [ 6 ] Future of CRISPR Technology                 ||           ");
-                Console.WriteLine("           ||                 [ 7 ] Other Gene Editing Technologies             ||           ");
-                Console.WriteLine("           ||                 [ 8 ] Gene Editing in Agriculture                 ||           ");
-                Console.WriteLine("           ||                 [ 9 ] Gene Editing and Cancer Research            ||           ");
-                Console.WriteLine("           ||                 [ 10 ] Risks and Limitations of Gene Editing      ||           ");
-                Console.WriteLine("           ||                 [ 0 ] Go Back                                     ||           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           =======================================================================           ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
+                GeneEditingAnimation();
+                Console.Clear();
+                Console.WriteLine("                                                                                                             ");
+                Console.WriteLine("                                                                                                             ");
+                Console.WriteLine("                                ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗               ");
+                Console.WriteLine("                               ██╔════╝ ██╔════╝████╗  ██║██╔════╝╚══██╔══╝██║██╔════╝██╔════╝               ");
+                Console.WriteLine("                               ██║  ███╗█████╗  ██╔██╗ ██║█████╗     ██║   ██║██║     ███████╗               ");
+                Console.WriteLine("                               ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝     ██║   ██║██║     ╚════██║               ");
+                Console.WriteLine("                               ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║               ");
+                Console.WriteLine("                                ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝               ");
+                Console.WriteLine("                                                                                                             ");
+                Console.WriteLine("                                                                                                             ");
+                Console.WriteLine("        ==================================================================================================== ");
+                Console.WriteLine("        ||                                                                                                || ");
+                Console.WriteLine("        ||                                            Genetics Menu:                                      || ");
+                Console.WriteLine("        ||                                                                                                || ");
+                Console.WriteLine("        ||                       Gene Editing (CRISPR and Other Technologies):                            || ");
+                Console.WriteLine("        ||                                                                                                || ");
+                Console.WriteLine("        ||                       [ 1 ] What is CRISPR?                                                    || ");
+                Console.WriteLine("        ||                       [ 2 ] How CRISPR Works                                                   || ");
+                Console.WriteLine("        ||                       [ 3 ] Applications of CRISPR in Medicine                                 || ");
+                Console.WriteLine("        ||                       [ 4 ] Gene Therapy and CRISPR                                            || ");
+                Console.WriteLine("        ||                       [ 5 ] Ethical Issues in Gene Editing                                     || ");
+                Console.WriteLine("        ||                       [ 6 ] Future of CRISPR Technology                                        || ");
+                Console.WriteLine("        ||                       [ 7 ] Other Gene Editing Technologies                                    || ");
+                Console.WriteLine("        ||                       [ 8 ] Gene Editing in Agriculture                                        || ");
+                Console.WriteLine("        ||                       [ 9 ] Gene Editing and Cancer Research                                   || ");
+                Console.WriteLine("        ||                       [ 10 ] Risks and Limitations of Gene Editing                             || ");
+                Console.WriteLine("        ||                       [ 0 ] Go Back                                                            || ");
+                Console.WriteLine("        ||                                                                                                || ");
+                Console.WriteLine("        ==================================================================================================== ");
+                Console.WriteLine("                                                                                                             ");
+                Console.WriteLine("                                                                                                                             ");
+                Console.Write("                               Choose an option: ");
 
-                Console.Write("           Choose an option: ");
 
                 subOption = Convert.ToInt32(Console.ReadLine());
 
@@ -1229,6 +1348,67 @@ namespace Project__1
 
             } while (subOption != 0);
         }
+
+        static void GeneEditingAnimation()
+        {
+
+            string[] frames = new string[]
+            {
+        "        ====================================================================================================  \n "+
+        "                                [G]-[A]-[T]-[C]-[A]-[T]-[C]-[G]-[A]-[T]-[C]-[G]  \n"+
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                                [G]-[A]-[T]-[C]-[A]-[T]-[C]-[G]-[A]-[T]-[C]-[C]  \n"+
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                                [G]-[A]-[T]-[C]-[A]-[T]-[C]-[G]-[A]-[G]-[C]-[C]  \n"+
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                                [G]-[A]-[T]-[C]-[A]-[T]-[C]-[G]-[G]-[G]-[C]-[C]  \n"+
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                                [G]-[A]-[T]-[C]-[A]-[T]-[C]-[A]-[G]-[G]-[C]-[C]  \n"+
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                                [G]-[A]-[T]-[C]-[A]-[A]-[C]-[A]-[G]-[G]-[C]-[C]  \n"+
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                                [G]-[A]-[T]-[C]-[T]-[A]-[C]-[A]-[G]-[G]-[C]-[C]  \n"+
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                                [G]-[A]-[T]-[G]-[T]-[A]-[C]-[A]-[G]-[G]-[C]-[C]  \n"+
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                                [G]-[A]-[A]-[G]-[T]-[A]-[C]-[A]-[G]-[G]-[C]-[C]  \n"+
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                                [G]-[G]-[A]-[G]-[T]-[A]-[C]-[A]-[G]-[G]-[C]-[C]  \n"+
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                                [C]-[G]-[A]-[G]-[T]-[A]-[C]-[A]-[G]-[G]-[C]-[C]  \n"+
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                                [C]-[G]-[T]-[G]-[T]-[A]-[C]-[A]-[G]-[G]-[C]-[C]  \n" +
+        "        ====================================================================================================  "
+
+            };
+
+            for (int i = 0; i < 3; i++)
+            {
+                foreach (var frame in frames)
+                {
+                    Console.Clear();
+                    Console.WriteLine(frame);
+                    Console.WriteLine("                                             Gene Editing Loading...");
+                    Thread.Sleep(300);
+                }
+            }
+
+
+            Console.Clear();
+            Console.WriteLine("Gene Editing Complete!");
+        }
+
 
         static void WhatIsCRISPR()
         {
@@ -1564,37 +1744,38 @@ namespace Project__1
             {
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.DarkGray;
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗               ");
-                Console.WriteLine("               ██╔════╝ ██╔════╝████╗  ██║██╔════╝╚══██╔══╝██║██╔════╝██╔════╝               ");
-                Console.WriteLine("               ██║  ███╗█████╗  ██╔██╗ ██║█████╗     ██║   ██║██║     ███████╗               ");
-                Console.WriteLine("               ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝     ██║   ██║██║     ╚════██║               ");
-                Console.WriteLine("               ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║               ");
-                Console.WriteLine("                ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝               ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
-                Console.ForegroundColor = ConsoleColor.DarkGray;
-                Console.WriteLine("           =======================================================================           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           ||                   Human Genome Project:                           ||           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           ||   [ 1 ] Overview of the Human Genome Project                      ||           ");
-                Console.WriteLine("           ||   [ 2 ] Goals of the Human Genome Project                         ||           ");
-                Console.WriteLine("           ||   [ 3 ] Timeline of the Human Genome Project                      ||           ");
-                Console.WriteLine("           ||   [ 4 ] Achievements of the Human Genome Project                  ||           ");
-                Console.WriteLine("           ||   [ 5 ] Impact of the Human Genome Project on Medicine            ||           ");
-                Console.WriteLine("           ||   [ 6 ] Ethical Concerns Related to the Human Genome Project      ||           ");
-                Console.WriteLine("           ||   [ 7 ] International Collaboration in the Human Genome Project   ||           ");
-                Console.WriteLine("           ||   [ 8 ] Role of Technology in the Human Genome Project            ||           ");
-                Console.WriteLine("           ||   [ 9 ] Human Genome Project and Personalized Medicine            ||           ");
-                Console.WriteLine("           ||   [ 10 ] Future of Genomic Research                               ||           ");
-                Console.WriteLine("           ||   [ 0 ] Go Back                                                   ||           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           =======================================================================           ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
-                Console.Write("Choose an option: ");
+                HumanGenomeAnimation();
+                Console.Clear();
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("                                ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗                         ");
+                Console.WriteLine("                               ██╔════╝ ██╔════╝████╗  ██║██╔════╝╚══██╔══╝██║██╔════╝██╔════╝                         ");
+                Console.WriteLine("                               ██║  ███╗█████╗  ██╔██╗ ██║█████╗     ██║   ██║██║     ███████╗                         ");
+                Console.WriteLine("                               ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝     ██║   ██║██║     ╚════██║                         ");
+                Console.WriteLine("                               ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║                         ");
+                Console.WriteLine("                                ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝                         ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("        ====================================================================================================           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ||                       Human Genome Project:                                                    ||           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ||                       [ 1 ] Overview of the Human Genome Project                               ||           ");
+                Console.WriteLine("        ||                       [ 2 ] Goals of the Human Genome Project                                  ||           ");
+                Console.WriteLine("        ||                       [ 3 ] Timeline of the Human Genome Project                               ||           ");
+                Console.WriteLine("        ||                       [ 4 ] Achievements of the Human Genome Project                           ||           ");
+                Console.WriteLine("        ||                       [ 5 ] Impact of the Human Genome Project on Medicine                     ||           ");
+                Console.WriteLine("        ||                       [ 6 ] Ethical Concerns Related to the Human Genome Project               ||           ");
+                Console.WriteLine("        ||                       [ 7 ] International Collaboration in the Human Genome Project            ||           ");
+                Console.WriteLine("        ||                       [ 8 ] Role of Technology in the Human Genome Project                     ||           ");
+                Console.WriteLine("        ||                       [ 9 ] Human Genome Project and Personalized Medicine                     ||           ");
+                Console.WriteLine("        ||                       [ 10 ] Future of Genomic Research                                        ||           ");
+                Console.WriteLine("        ||                       [ 0 ] Go Back                                                            ||           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ====================================================================================================           ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.WriteLine("                                                                                                                       ");
+                Console.Write("                               Choose an option: ");
 
                 subOption = Convert.ToInt32(Console.ReadLine());
 
@@ -1616,6 +1797,67 @@ namespace Project__1
 
             } while (subOption != 0);
         }
+
+        static void HumanGenomeAnimation()
+        {
+
+            string[] frames = new string[]
+            {
+        "        ====================================================================================================  \n"+
+        "                        __    __    __    __    __    __    __    __    __    __  \n" +
+        "                      /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\ \n" +
+        "                      (A  )(C  )(G  )(T  )(C  )(G  )(A  )(T  )(C  )(A  )(G  )(T  )\n" +
+        "                       \\__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\n" +
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                       __    __    __    __    __    __    __    __    __    __  \n" +
+        "                      /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\ \n" +
+        "                     (A  )(C  )(G  )(T  )(C  )(G  )(A  )(T  )(C  )(A  )(G  )(A  )\n" +
+        "                      \\__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\n" +
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                       __    __    __    __    __    __    __    __    __    __  \n" +
+        "                      /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\ \n" +
+        "                     (A  )(C  )(G  )(T  )(C  )(G  )(A  )(T  )(C  )(T  )(G  )(A  )\n" +
+        "                      \\__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\n" +
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                       __    __    __    __    __    __    __    __    __    __  \n" +
+        "                      /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\ \n" +
+        "                     (A  )(C  )(G  )(T  )(C  )(G  )(A  )(G  )(C  )(T  )(G  )(A  )\n" +
+        "                      \\__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\n" +
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                       __    __    __    __    __    __    __    __    __    __  \n" +
+        "                      /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\ \n" +
+        "                     (A  )(C  )(G  )(T  )(C  )(G  )(A  )(T  )(C  )(T  )(G  )(A  )\n" +
+        "                      \\__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\n" +
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                       __    __    __    __    __    __    __    __    __    __  \n" +
+        "                      /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\  /  \\ \n" +
+        "                     (A  )(C  )(G  )(T  )(C  )(G  )(A  )(T  )(C  )(A  )(G  )(T  )\n" +
+        "                      \\__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__\\/__/\n" +
+        "        ====================================================================================================  ",
+
+            };
+
+            for (int i = 0; i < 3; i++)
+            {
+                foreach (var frame in frames)
+                {
+                    Console.Clear();
+                    Console.WriteLine(frame);
+                    Console.WriteLine("                                            Human Genome Sequencing Loading...");
+                    Thread.Sleep(300);
+                }
+            }
+
+            Console.ResetColor();
+            Console.Clear();
+            Console.WriteLine("Human Genome Sequencing Complete!");
+        }
+
 
         static void OverviewHumanGenomeProject()
         {
@@ -2125,35 +2367,34 @@ namespace Project__1
 
             do
             {
-
                 Console.Clear();
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗               ");
-                Console.WriteLine("               ██╔════╝ ██╔════╝████╗  ██║██╔════╝╚══██╔══╝██║██╔════╝██╔════╝               ");
-                Console.WriteLine("               ██║  ███╗█████╗  ██╔██╗ ██║█████╗     ██║   ██║██║     ███████╗               ");
-                Console.WriteLine("               ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝     ██║   ██║██║     ╚════██║               ");
-                Console.WriteLine("               ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║               ");
-                Console.WriteLine("                ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝               ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
+                EpigeneticsAnimation();
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
-                Console.WriteLine("           =======================================================================           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           ||                     Epigenetics:                                  ||           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           ||                 [ 1 ] What is Epigenetics?                        ||           ");
-                Console.WriteLine("           ||                 [ 2 ] DNA Methylation                             ||           ");
-                Console.WriteLine("           ||                 [ 3 ] Histone Modification                        ||           ");
-                Console.WriteLine("           ||                 [ 4 ] Environmental Impact on Epigenetics         ||           ");
-                Console.WriteLine("           ||                 [ 5 ] Role of Epigenetics in Disease              ||           ");
-                Console.WriteLine("           ||                 [ 0 ] Go Back                                     ||           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           =======================================================================           ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
-                Console.Write("Choose an option: ");
-
+                Console.Clear(); Console.WriteLine("                                                                                           ");
+                Console.WriteLine("                                                                                                              ");
+                Console.WriteLine("                                                                                                            ");
+                Console.WriteLine("                                  ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗             ");
+                Console.WriteLine("                                 ██╔════╝ ██╔════╝████╗  ██║██╔════╝╚══██╔══╝██║██╔════╝██╔════╝             ");
+                Console.WriteLine("                                 ██║  ███╗█████╗  ██╔██╗ ██║█████╗     ██║   ██║██║     ███████╗             ");
+                Console.WriteLine("                                 ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝     ██║   ██║██║     ╚════██║             ");
+                Console.WriteLine("                                 ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║             ");
+                Console.WriteLine("                                  ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝             ");
+                Console.WriteLine("                                                                                                             ");
+                Console.WriteLine("        ==================================================================================================== ");
+                Console.WriteLine("        ||                                                                                                 ||");
+                Console.WriteLine("        ||                             Epigenetics:                                                        ||");
+                Console.WriteLine("        ||                                                                                                 ||");
+                Console.WriteLine("        ||                     [ 1 ] What is Epigenetics?                                                  ||");
+                Console.WriteLine("        ||                     [ 2 ] DNA Methylation                                                       ||");
+                Console.WriteLine("        ||                     [ 3 ] Histone Modification                                                  ||");
+                Console.WriteLine("        ||                     [ 4 ] Environmental Impact on Epigenetics                                   ||");
+                Console.WriteLine("        ||                     [ 5 ] Role of Epigenetics in Disease                                        ||");
+                Console.WriteLine("        ||                     [ 0 ] Go Back                                                               ||");
+                Console.WriteLine("        ||                                                                                                 ||");
+                Console.WriteLine("        ==================================================================================================== ");
+                Console.WriteLine("                                                                                                            ");
+                Console.WriteLine("                                                                                                            ");
+                Console.Write("                        Choose an option: ");
                 subOption = Convert.ToInt32(Console.ReadLine());
 
                 switch (subOption)
@@ -2169,6 +2410,58 @@ namespace Project__1
 
             } while (subOption != 0);
         }
+
+        static void EpigeneticsAnimation()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+
+            string[] frames = new string[]
+            {
+                "        ====================================================================================================  \n"+
+                "                                    [A]-[C]-[G]-[T]-[C]-[G]-[A]-[T]-[C]-[A]-[G]-[T]  \n" +
+                "        ====================================================================================================  ",
+                "        ====================================================================================================  \n"+
+                "                                    [A]-[C]-[G]-[T]-[C]-[G]-[A]-[T]-[C]-[A]-[G]-[T]\n"+
+                "        ====================================================================================================  ",
+                "        ====================================================================================================  \n"+
+                "                                    [A]-[C]-[G]-[T]-[C]-[G]-[A]-[T]-[C]-[A]-[G]-[T]\n"+
+                "        ====================================================================================================  ",
+                "        ====================================================================================================  \n"+
+                "                                    [A]-[C]-[G]-[T]-[C]-[G]-[A]-[T]-[C]-[A]-[G]-[T]  \n"+
+                "        ====================================================================================================  ",
+                "        ====================================================================================================  \n"+
+                "                                       |               [CH3]                    \n"+
+                "        ====================================================================================================  ",
+                "        ====================================================================================================  \n"+
+                "                                    [A]-[C]-[G]-[T]-[C]-[G]-[A]-[T]-[C]-[A]-[G]-[T]  \n"+
+                "        ====================================================================================================  ",
+                "        ====================================================================================================  \n"+
+                "                                      [CH3]       [CH3]          [CH3]            \n"+
+                "        ====================================================================================================  ",
+                "        ====================================================================================================  \n"+
+                "                                    [A]-[C]-[G]-[T]-[C]-[G]-[A]-[T]-[C]-[A]-[G]-[T]\n"+
+                "        ====================================================================================================  ",
+                "        ====================================================================================================  \n"+
+                "                                    [A]-[C]-[G]-[T]-[C]-[G]-[A]-[T]-[C]-[A]-[G]-[T]\n"+
+                "        ====================================================================================================  ",
+         };
+
+            for (int i = 0; i < 2; i++)
+            {
+                foreach (var frame in frames)
+                {
+                    Console.Clear();
+                    Console.WriteLine(frame);
+                    Console.WriteLine("                                       Epigenetic Modifications in Progress...");
+                    Thread.Sleep(300);
+                }
+            }
+
+            Console.ResetColor();
+            Console.Clear();
+            Console.WriteLine("Epigenetic Modifications Complete!");
+        }
+
 
         static void WhatIsEpigenetics()
         {
@@ -2447,34 +2740,35 @@ namespace Project__1
 
             do
             {
-                Console.Clear();
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗               ");
-                Console.WriteLine("               ██╔════╝ ██╔════╝████╗  ██║██╔════╝╚══██╔══╝██║██╔════╝██╔════╝               ");
-                Console.WriteLine("               ██║  ███╗█████╗  ██╔██╗ ██║█████╗     ██║   ██║██║     ███████╗               ");
-                Console.WriteLine("               ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝     ██║   ██║██║     ╚════██║               ");
-                Console.WriteLine("               ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║               ");
-                Console.WriteLine("                ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝               ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
-                Console.ForegroundColor = ConsoleColor.DarkGreen;
-                Console.WriteLine("           =======================================================================           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           ||                   Evolution and Genetics:                         ||           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           ||                 [ 1 ] What is Evolution?                          ||           ");
-                Console.WriteLine("           ||                 [ 2 ] Natural Selection                           ||           ");
-                Console.WriteLine("           ||                 [ 3 ] Genetic Drift                               ||           ");
-                Console.WriteLine("           ||                 [ 4 ] Gene Flow                                   ||           ");
-                Console.WriteLine("           ||                 [ 5 ] Evolutionary Developmental Biology          ||           ");
-                Console.WriteLine("           ||                 [ 0 ] Go Back                                     ||           ");
-                Console.WriteLine("           ||                                                                   ||           ");
-                Console.WriteLine("           =======================================================================           ");
-                Console.WriteLine("                                                                                             ");
-                Console.WriteLine("                                                                                             ");
-                Console.Write("Choose an option: ");
 
+                Console.Clear();
+                EvolutionAndGeneticsAnimation();
+                Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                Console.Clear();
+                Console.WriteLine("                                                                                                                          ");
+                Console.WriteLine("                                                                                                                          ");
+                Console.WriteLine("                                  ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗                          ");
+                Console.WriteLine("                                 ██╔════╝ ██╔════╝████╗  ██║██╔════╝╚══██╔══╝██║██╔════╝██╔════╝                          ");
+                Console.WriteLine("                                 ██║  ███╗█████╗  ██╔██╗ ██║█████╗     ██║   ██║██║     ███████╗                          ");
+                Console.WriteLine("                                 ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝     ██║   ██║██║     ╚════██║                          ");
+                Console.WriteLine("                                 ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║                          ");
+                Console.WriteLine("                                  ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝                          ");
+                Console.WriteLine("                                                                                                                          ");
+                Console.WriteLine("        ====================================================================================================           ");
+                Console.WriteLine("        ||                                                                                                 ||          ");
+                Console.WriteLine("        ||                            Evolution and Genetics:                                              ||          ");
+                Console.WriteLine("        ||                                                                                                 ||          ");
+                Console.WriteLine("        ||                     [ 1 ] What is Evolution?                                                    ||          ");
+                Console.WriteLine("        ||                     [ 2 ] Natural Selection                                                     ||          ");
+                Console.WriteLine("        ||                     [ 3 ] Genetic Drift                                                         ||          ");
+                Console.WriteLine("        ||                     [ 4 ] Gene Flow                                                             ||          ");
+                Console.WriteLine("        ||                     [ 5 ] Evolutionary Developmental Biology                                    ||          ");
+                Console.WriteLine("        ||                     [ 0 ] Go Back                                                               ||          ");
+                Console.WriteLine("        ||                                                                                                 ||          ");
+                Console.WriteLine("        ====================================================================================================           ");
+                Console.WriteLine("                                                                                                                          ");
+                Console.WriteLine("                                                                                                                          ");
+ Console.Write("                        Choose an option: ");
                 subOption = Convert.ToInt32(Console.ReadLine());
 
                 switch (subOption)
@@ -2490,6 +2784,73 @@ namespace Project__1
 
             } while (subOption != 0);
         }
+
+        static void EvolutionAndGeneticsAnimation()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+
+            string[] frames = new string[]
+            {
+        "        ====================================================================================================  \n"+
+        "                                              ========================  \n" +
+        "                                              || A - T - G - C - A ||  \n" +
+        "                                              || C - G - T - A - C ||  \n" +
+        "                                              ========================  \n" +
+        "                                                   Initial Sequence     \n"+
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                                              ========================  \n" +
+        "                                              || A - T - G - C - A ||  \n" +
+        "                                              || C - G - T - A - C ||  \n" +
+        "                                              ========================  \n" +
+        "                                                      Stable            \n"+
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                                             ========================  \n" +
+        "                                             || A - T - G - C - T ||  \n" + // Mutation at 5th position
+        "                                             || C - G - T - A - C ||  \n" +
+        "                                             ========================  \n" +
+        "                                                   Mutation A -> T     \n"+
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                                              ========================  \n" +
+        "                                              || A - T - G - C - T ||  \n" + // Retaining mutation
+        "                                              || C - G - T - G - C ||  \n" + // Mutation at 4th position
+        "                                              ========================  \n" +
+        "                                                  Adaptation G -> T     \n"+
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                                              ========================  \n" +
+        "                                              || A - A - G - C - T ||  \n" + // Mutation at 2nd position
+        "                                              || C - G - T - G - C ||  \n" + // Retaining previous mutations
+        "                                              ========================  \n" +
+        "                                                  Evolution A -> A      \n"+
+        "        ====================================================================================================  ",
+        "        ====================================================================================================  \n"+
+        "                                              ========================  \n" +
+        "                                              || A - A - G - C - T ||  \n" + // Final state with mutations
+        "                                              || C - A - T - G - C ||  \n" + // Change at 2nd position
+        "                                              ========================  \n" +
+        "                                                   Final Sequence       \n"+
+        "        ====================================================================================================  ",
+            };
+
+            for (int i = 0; i < 2; i++) // Loop to repeat the animation
+            {
+                foreach (var frame in frames)
+                {
+                    Console.Clear();
+                    Console.WriteLine(frame);
+                    Console.WriteLine("                                          Evolution and Genetics in Action...");
+                    Thread.Sleep(700); // Pause for 700 milliseconds for clarity
+                }
+            }
+
+            Console.ResetColor();
+            Console.Clear();
+            Console.WriteLine("Evolution and Genetics Process Complete!");
+        }
+
 
         static void WhatIsEvolution()
         {
@@ -2782,7 +3143,5 @@ namespace Project__1
 
 
         }
-
-
     }
 }
