@@ -183,8 +183,6 @@ namespace Project__1
             Console.Clear();
             Console.WriteLine("Genetics Menu Complete!");
         }
-
-
         static void WhatIsGenetics()
         {
 
@@ -211,7 +209,6 @@ namespace Project__1
             Console.WriteLine("                                                                                                           ");
             Console.ReadKey();
         }
-
         static void TypesOfGeneticInheritance()
         {
             int subOption = 0;
@@ -1062,18 +1059,24 @@ namespace Project__1
             do
             {
                 Console.Clear();
-                Console.WriteLine("                                                                                                                     ");
-                Console.WriteLine("                                    ╔═╗┌─┐┌┐┌┌─┐┌┬┐┬┌─┐  ╔╦╗┬ ┬┌┬┐┌─┐┌┬┐┬┌─┐┌┐┌┌─┐                                   ");
-                Console.WriteLine("                                    ║ ╦├┤ │││├┤  │ ││    ║║║│ │ │ ├─┤ │ ││ ││││└─┐                                   ");
-                Console.WriteLine("                                    ╚═╝└─┘┘└┘└─┘ ┴ ┴└─┘  ╩ ╩└─┘ ┴ ┴ ┴ ┴ ┴└─┘┘└┘└─┘                                   ");
-                Console.WriteLine("                                                                                                                     ");
-                Console.WriteLine("        ==================================================================================================           ");
-                Console.WriteLine("        ||                                                                                              ||           ");
-                Console.WriteLine("        ||                                     Genetic Mutations:                                       ||           ");
-                Console.WriteLine("        ||                                                                                              ||           ");
-                Console.WriteLine("        ||                                                                                              ||           ");
-                Console.WriteLine("        ==================================================================================================           ");
-                Console.WriteLine("                                                                                                                     ");
+                Console.WriteLine("                                                                                                          ");
+                Console.WriteLine("                                    ╔═╗┌─┐┌┐┌┌─┐┌┬┐┬┌─┐  ╔╦╗┬ ┬┌┬┐┌─┐┌┬┐┬┌─┐┌┐┌┌─┐                        ");
+                Console.WriteLine("                                    ║ ╦├┤ │││├┤  │ ││    ║║║│ │ │ ├─┤ │ ││ ││││└─┐                        ");
+                Console.WriteLine("                                    ╚═╝└─┘┘└┘└─┘ ┴ ┴└─┘  ╩ ╩└─┘ ┴ ┴ ┴ ┴ ┴└─┘┘└┘└─┘                        ");
+                Console.WriteLine("                                                                                                          ");
+                Console.WriteLine("        ==================================================================================================");
+                Console.WriteLine("        ||                                                                                              ||");
+                Console.WriteLine("        ||                                     Genetic Mutations:                                       ||");
+                Console.WriteLine("        ||                                  [1] Point Mutations                                         ||");
+                Console.WriteLine("        ||                                  [2]Frames hift Mutations                                    ||");
+                Console.WriteLine("        ||                                  [3]SilentM utations                                         ||");
+                Console.WriteLine("        ||                                  [4]Missense Mutations                                       ||");
+                Console.WriteLine("        ||                                  [5]Nonsense Mutations                                       ||");
+                Console.WriteLine("        ||                                  [6]Chromosoma lMutations                                    ||");
+                Console.WriteLine("        ||                                  [0] Back                                                    ||");
+                Console.WriteLine("        ||                                                                                              ||");
+                Console.WriteLine("        ==================================================================================================");
+                Console.WriteLine("                                                                                                          ");
                 Console.Write("                               Choose an option: ");
 
                 subOption = Convert.ToInt32(Console.ReadLine());
