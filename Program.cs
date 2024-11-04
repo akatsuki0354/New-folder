@@ -241,7 +241,7 @@ namespace Project__1
                 Console.WriteLine("        ||     [ 4 ] Incomplete Dominance             !!!!!!!!JYYYY5YYYY7!!!!!7!7!77!?!?!!!!!!!!!!!       ||           ");
                 Console.WriteLine("        ||     [ 5 ] Sex-Linked Inheritance           !!!!!!!!JYYYYYYYYY7!!!!!77!!77!!7?!!!!!!!!!!!       ||           ");
                 Console.WriteLine("        ||     [ 6 ] Mitochondrial Inheritance        !!!!!!!!J55YYYYY557!!!!!7!~~77~~!7!!!!!!!!!!!       ||           ");
-                Console.WriteLine("        ||     [ 0 ] Go Back                          !!!!!!!!7?JYYYY5?7!!!!!7!~!!77~~~!7!!!!!!!!!!       ||           ");
+                Console.WriteLine("        ||     [ 0 ] Back                             !!!!!!!!7?JYYYY5?7!!!!!7!~!!77~~~!7!!!!!!!!!!       ||           ");
                 Console.WriteLine("        ||                                            !!!!!!!!!!?YYYYY!!!!!!!7!!!~77~~~~7!!!!!!!!!!       ||           ");
                 Console.WriteLine("        ||                                            !!!!!!!!!!?YYYYY!!!!!!!7!!!!!!~~~~7!!!!!!!!!!       ||           ");
                 Console.WriteLine("        ||                                            !!!!!!!!!!7YYY5J!!!!!!!77777!!77777!!!!!!!!!!       ||           ");
@@ -536,7 +536,7 @@ namespace Project__1
                 Console.WriteLine("        ||           [ 8 ] Human Genome ProjectInfo                :!^:~!!^!B~   .:.!J.                   ||           ");
                 Console.WriteLine("        ||           [ 9 ] Ethical Considerations                   :~7^:::55      .^7?^                  ||           ");
                 Console.WriteLine("        ||           [ 10 ] Future Genetics                           .:^^?G!^^:.  ...~?7:                ||           ");
-                Console.WriteLine("        ||           [ 0 ] Exit                                          .55!777?7:   .^!?7:              ||           ");
+                Console.WriteLine("        ||           [ 0 ] Back                                          .55!777?7:   .^!?7:              ||           ");
                 Console.WriteLine("        ||                                                               :G?^~~!?Y5^  .. .!J~             ||           ");
                 Console.WriteLine("        ||                                                                JP!~!~^:7^    ..:7J.            ||           ");
                 Console.WriteLine("        ||                                                                .!Y5Y?          :?!             ||           ");
@@ -947,7 +947,7 @@ namespace Project__1
                 Console.WriteLine("        ||          [ 1 ] Types of Mutations          J:    .J7!?!~: .~:..??  J~^^^77?77J~J^~Y!Y         ||         ");
                 Console.WriteLine("        ||          [ 2 ] Causes of Mutations         J^    ~J77!J7J:::.:.?P..J^^7~~!^~?Y^^^^~!Y         ||         ");
                 Console.WriteLine("        ||          [ 3 ] Effects of Mutations        :J.   J75!~?JJ!~::.!?!7 .7?7!^^^^:77^^^~!Y         ||         ");
-                Console.WriteLine("        ||          [ 0 ] Go Back                      ^?~. J75~~7YJ!.:^7?..Y.  :!?!^^^^^~~!7?Y^         ||         ");
+                Console.WriteLine("        ||          [ 0 ] Back                         ^?~. J75~~7YJ!.:^7?..Y.  :!?!^^^^^~~!7?Y^         ||         ");
                 Console.WriteLine("        ||                                              .~7!7J!:::7?~~77^   !7    .~7!?7!!~~~!J          ||         ");
                 Console.WriteLine("        ||                                                 :^~!?J?7!~^.     .Y.  .^~!!Y!^..:^J~          ||         ");
                 Console.WriteLine("        ||                                                     .:^~!!~^:.    !7 ^J!~^^~7?J?7?^           ||         ");
@@ -1367,7 +1367,7 @@ namespace Project__1
                 Console.WriteLine("        ||  [ 8 ] Gene Editing in Agriculture              ^^::::JGY^.^?JJ7:      .^J??^....::::^^^~      || ");
                 Console.WriteLine("        ||  [ 9 ] Gene Editing and Cancer Research         ^^:::..7PPYPP?^      .!YPPPPJ....:::^^^^~      || ");
                 Console.WriteLine("        ||  [ 10 ] Risks and Limitations of Gene Editing   ^^::::..^JPG5~.    .!5GPJ^^PG!..::::^^^~~      || ");
-                Console.WriteLine("        ||  [ 0 ] Go Back                                  ^^^:::::..^7YPPY?!?PGP7:   YBY..::::^^^~~      || ");
+                Console.WriteLine("        ||  [ 0 ] Back                                     ^^^:::::..^7YPPY?!?PGP7:   YBY..::::^^^~~      || ");
                 Console.WriteLine("        ||                                                 ^^^^:::::....:~7Y5PPGG55YJ?YGP7~~~^^^^^~~      || ");
                 Console.WriteLine("        ||                                                 ~~^^^^:::::.......::^~!7??JYBG5PPGPPPYJ?7      || ");
                 Console.WriteLine("        ||                                                 ~~~~^^^^::::::::...........:5B5~~!77YGGGG      || ");
@@ -2462,7 +2462,7 @@ namespace Project__1
                 Console.WriteLine("        ||  [ 3 ] Histone Modification                .....::.......:^^^~~7~^~^^~^:7~^^~^^:::::.:^^::...   ||");
                 Console.WriteLine("        ||  [ 4 ] Environmental Impact on Epigenetics ...:^~!~^^~~~^~^^:^:~!:^~~^^!!:::::^^^^^^:^~~^:...   ||");
                 Console.WriteLine("        ||  [ 5 ] Role of Epigenetics in Disease      .....::........ . ..:~^~~!^^^^.   ......   .......   ||");
-                Console.WriteLine("        ||  [ 0 ] Go Back                             ...... .      .......^^~~^~:^:.. ..      .........   ||");
+                Console.WriteLine("        ||  [ 0 ] Back                                ...... .      .......^^~~^~:^:.. ..      .........   ||");
                 Console.WriteLine("        ||                                            .........      . ....^^^~^^^^:.   .       ........   ||");
                 Console.WriteLine("        ||                                            ........          . ::^^:::^^:.           ........   ||");
                 Console.WriteLine("        ||                                            ..........          :::::::::..         ..........   ||");
@@ -2853,7 +2853,7 @@ namespace Project__1
                 Console.WriteLine("        ||   [ 3 ] Genetic Drift                              ^5BB!       .G##P.         ?B&####&P..       ||          ");
                 Console.WriteLine("        ||   [ 4 ] Gene Flow                                 ~#&#5^       !###BJ:       !#####B##~         ||          ");
                 Console.WriteLine("        ||   [ 5 ] Evolutionary Developmental Biology        J&#&7        J&#&B7:       Y&###BJB!          ||          ");
-                Console.WriteLine("        ||   [ 0 ] Go Back                        .!PB5.    ~B##JJJ?.    .B#7?#B:       P&B5B#BP           ||          ");
+                Console.WriteLine("        ||   [ 0 ] Back                           .!PB5.    ~B##JJJ?.    .B#7?#B:       P&B5B#BP           ||          ");
                 Console.WriteLine("        ||                                        !B&&P!.    ?###Y: ?!    Y#?  ~&J      !##! ?#&?::        ||          ");
                 Console.WriteLine("        ||                                       Y####P.      ~#B5B:     !#!    5G.   .J#B7  Y&P..         ||          ");
                 Console.WriteLine("        ||                              ..:^7J! .YB&BY#G.     YY. YY::~~!G5      P5!!^YBB~   P&Y           ||          ");
