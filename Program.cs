@@ -234,6 +234,7 @@ namespace Project__1
                 Console.WriteLine("                             ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║                           ");
                 Console.WriteLine("                              ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝                           ");
                 Console.WriteLine("                                                                                                                       ");
+<<<<<<< HEAD
                 Console.WriteLine("        ████████████████████████████████████████████████████████████████████████████████████████████████████           ");
                 Console.WriteLine("        ██                                                                                                ██           ");
                 Console.WriteLine("        ██                        Types of Genetic Inheritance                                            ██           ");
@@ -256,6 +257,30 @@ namespace Project__1
                 Console.WriteLine("        ██                                            !!!!!!!!!!!7777!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!       ██           ");
                 Console.WriteLine("        ██                                                                                                ██           ");
                 Console.WriteLine("        ████████████████████████████████████████████████████████████████████████████████████████████████████           ");
+=======
+                Console.WriteLine("        ====================================================================================================           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ||                        Types of Genetic Inheritance                                            ||           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ||                                            !!!!!!!!!!!7Y5J!!!!!!!!!!!!!77!!!!!!!!!!!!!!!       ||           ");
+                Console.WriteLine("        ||                                            !!!!!!!!!!!5PPPJ!!!!!!!!!!75GGP?!!!!!!!!!!!!!       ||           ");
+                Console.WriteLine("        ||                                            !!!!!!!!!!!YYYY?!!!!!!!!!?BY!!JBY!!!!!!!!!!!!       ||           ");
+                Console.WriteLine("        ||     [ 1 ] Dominant Inheritance             !!!!!!!!!?JY555JJ7!!!!!!!75Y77JP?!!!!!!!!!!!!       ||           ");
+                Console.WriteLine("        ||     [ 2 ] Recessive Inheritance            !!!!!!!!?YYYPB5YYY7!!!!!77~~77!~!7!!!!!!!!!!!       ||           ");
+                Console.WriteLine("        ||     [ 3 ] Co-Dominance                     !!!!!!!!JYYY5GYYYY7!!!!!7!7~!7~7!?!!!!!!!!!!!       ||           ");
+                Console.WriteLine("        ||     [ 4 ] Incomplete Dominance             !!!!!!!!JYYYY5YYYY7!!!!!7!7!77!?!?!!!!!!!!!!!       ||           ");
+                Console.WriteLine("        ||     [ 5 ] Sex-Linked Inheritance           !!!!!!!!JYYYYYYYYY7!!!!!77!!77!!7?!!!!!!!!!!!       ||           ");
+                Console.WriteLine("        ||     [ 6 ] Mitochondrial Inheritance        !!!!!!!!J55YYYYY557!!!!!7!~~77~~!7!!!!!!!!!!!       ||           ");
+                Console.WriteLine("        ||     [ 0 ] Back                             !!!!!!!!7?JYYYY5?7!!!!!7!~!!77~~~!7!!!!!!!!!!       ||           ");
+                Console.WriteLine("        ||                                            !!!!!!!!!!?YYYYY!!!!!!!7!!!~77~~~~7!!!!!!!!!!       ||           ");
+                Console.WriteLine("        ||                                            !!!!!!!!!!?YYYYY!!!!!!!7!!!!!!~~~~7!!!!!!!!!!       ||           ");
+                Console.WriteLine("        ||                                            !!!!!!!!!!7YYY5J!!!!!!!77777!!77777!!!!!!!!!!       ||           ");
+                Console.WriteLine("        ||                                            !!!!!!!!!!75YY5?!!!!!!!!!!77~~7!!!!!!!!!!!!!!       ||           ");
+                Console.WriteLine("        ||                                            !!!!!!!!!!7YYYY7!!!!!!!!!!!7!!7!!!!!!!!!!!!!!       ||           ");
+                Console.WriteLine("        ||                                            !!!!!!!!!!!7777!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!       ||           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ====================================================================================================           ");
+>>>>>>> 8ce489e30d41390e9b279b79354d03024179daa6
                 Console.WriteLine("                                                                                                                       ");
                 Console.WriteLine("                                                                                                                       ");
                 Console.Write("                        Choose an option: ");
@@ -523,6 +548,7 @@ namespace Project__1
                 Console.WriteLine("                             ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║                           ");
                 Console.WriteLine("                              ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝                           ");
                 Console.WriteLine("                                                                                                                       ");
+<<<<<<< HEAD
                 Console.WriteLine("        ████████████████████████████████████████████████████████████████████████████████████████████████████           ");
                 Console.WriteLine("        ██                                                                                                ██           ");
                 Console.WriteLine("        ██                              More InfoAbout DNA And Genes                                      ██           ");
@@ -550,6 +576,35 @@ namespace Project__1
                 Console.WriteLine("        ██                                                                                                ██           ");
                 Console.WriteLine("        ██                                                                                                ██           ");
                 Console.WriteLine("        ████████████████████████████████████████████████████████████████████████████████████████████████████           ");
+=======
+                Console.WriteLine("        ====================================================================================================           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ||                              More InfoAbout DNA And Genes                                      ||           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ||                                                                             .                  ||           ");
+                Console.WriteLine("        ||                                                    7J                       ..                 ||           ");
+                Console.WriteLine("        ||                                                    !5.                      ^?7:               ||           ");
+                Console.WriteLine("        ||                                                  .:?Y.                      .:~?!              ||           ");
+                Console.WriteLine("        ||                                                  ^?5J!~^.                    .:~?7.            ||           ");
+                Console.WriteLine("        ||           [ 1 ] DNA Introduction                  ?J..:!7~:                   ..:J!            ||           ");
+                Console.WriteLine("        ||           [ 2 ] Genes Functions                  ^5~::.::~?^                .^^::J!            ||           ");
+                Console.WriteLine("        ||           [ 3 ] DNA Replication                  ^57^^~~~^~~               .::^7J!             ||           ");
+                Console.WriteLine("        ||           [ 4 ] Gene Expression                   ~JY?~~:^!^             .::^7?!:              ||           ");
+                Console.WriteLine("        ||           [ 5 ] Genetic Variation                   :~7??JYJ?7!^.      ...^?7^.                ||           ");
+                Console.WriteLine("        ||           [ 6 ] Inheritance Patterns                    :!~^~~7Y57    ..:~J~                   ||           ");
+                Console.WriteLine("        ||           [ 7 ] Genetic Technologies                    ^!....:^?B!   :::J7                    ||           ");
+                Console.WriteLine("        ||           [ 8 ] Human Genome ProjectInfo                :!^:~!!^!B~   .:.!J.                   ||           ");
+                Console.WriteLine("        ||           [ 9 ] Ethical Considerations                   :~7^:::55      .^7?^                  ||           ");
+                Console.WriteLine("        ||           [ 10 ] Future Genetics                           .:^^?G!^^:.  ...~?7:                ||           ");
+                Console.WriteLine("        ||           [ 0 ] Back                                          .55!777?7:   .^!?7:              ||           ");
+                Console.WriteLine("        ||                                                               :G?^~~!?Y5^  .. .!J~             ||           ");
+                Console.WriteLine("        ||                                                                JP!~!~^:7^    ..:7J.            ||           ");
+                Console.WriteLine("        ||                                                                .!Y5Y?          :?!             ||           ");
+                Console.WriteLine("        ||                                                                   .::           .              ||           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ||                                                                                                ||           ");
+                Console.WriteLine("        ====================================================================================================           ");
+>>>>>>> 8ce489e30d41390e9b279b79354d03024179daa6
                 Console.WriteLine("                                                                                                                       ");
                 Console.WriteLine("                                                                                                                       ");
                 Console.Write("                        Choose an option: ");
@@ -940,6 +995,7 @@ namespace Project__1
                 Console.WriteLine("                             ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║                           ");
                 Console.WriteLine("                              ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝                           ");
                 Console.WriteLine("                                                                                                                       ");
+<<<<<<< HEAD
                 Console.WriteLine("        ████████████████████████████████████████████████████████████████████████████████████████████████████           ");
                 Console.WriteLine("        ██                                                                                              ██             ");
                 Console.WriteLine("        ██                                                                                              ██             ");
@@ -968,6 +1024,36 @@ namespace Project__1
                 Console.WriteLine("        ██                                                                          ..::::.             ██             ");
                 Console.WriteLine("        ██                                                                                              ██             ");
                 Console.WriteLine("        ████████████████████████████████████████████████████████████████████████████████████████████████████           ");
+=======
+                Console.WriteLine("        ==================================================================================================          ");
+                Console.WriteLine("        ||                                                                                               ||         ");
+                Console.WriteLine("        ||                                                                                               ||         ");
+                Console.WriteLine("        ||                                       Genetic Mutations:                                      ||         ");
+                Console.WriteLine("        ||                                                                                               ||         ");
+                Console.WriteLine("        ||                                                   .:::::..                     .  .           ||         ");
+                Console.WriteLine("        ||                                                ^!!7~^^^~!!!~:                 .?~?:           ||         ");
+                Console.WriteLine("        ||                                              ~7~:??J::~JJ^ :!7:   .           .^P7.           ||         ");
+                Console.WriteLine("        ||                                             77.  J!5!!?Y?!.  ^J^..!?  ..     !7~!77?:         ||         ");
+                Console.WriteLine("        ||                                            !?    ??J7^~?Y~!. .:Y^~~J?7777!: ^J^!:~77Y         ||         ");
+                Console.WriteLine("        ||          [ 1 ] Types of Mutations          J:    .J7!?!~: .~:..??  J~^^^77?77J~J^~Y!Y         ||         ");
+                Console.WriteLine("        ||          [ 2 ] Causes of Mutations         J^    ~J77!J7J:::.:.?P..J^^7~~!^~?Y^^^^~!Y         ||         ");
+                Console.WriteLine("        ||          [ 3 ] Effects of Mutations        :J.   J75!~?JJ!~::.!?!7 .7?7!^^^^:77^^^~!Y         ||         ");
+                Console.WriteLine("        ||          [ 0 ] Back                         ^?~. J75~~7YJ!.:^7?..Y.  :!?!^^^^^~~!7?Y^         ||         ");
+                Console.WriteLine("        ||                                              .~7!7J!:::7?~~77^   !7    .~7!?7!!~~~!J          ||         ");
+                Console.WriteLine("        ||                                                 :^~!?J?7!~^.     .Y.  .^~!!Y!^..:^J~          ||         ");
+                Console.WriteLine("        ||                                                     .:^~!!~^:.    !7 ^J!~^^~7?J?7?^           ||         ");
+                Console.WriteLine("        ||                                                          .:^~!!~~^^Y:Y~^~!?~~^~^:             ||         ");
+                Console.WriteLine("        ||                                                       ^!!!!!J!!7~~~!:J~^~J?..                 ||         ");
+                Console.WriteLine("        ||                                                      77^^!!7Y^??!7!: :?7~^!777J!~:            ||         ");
+                Console.WriteLine("        ||                                            .::.     ~Y^!J^:::~?7!^~77^.~77!!~J7:~77.          ||         ");
+                Console.WriteLine("        ||                                            ~Y?77^.  ?J75^      :!?!^!Y?^..::^7?~!7Y?          ||         ");
+                Console.WriteLine("        ||                                             .~?777!7Y!!J         .!JJ^:?J!~^:~J!!!7J          ||         ");
+                Console.WriteLine("        ||                                               .!?!!!7YJ:           :!77Y~^~!!~^^~7J:          ||         ");
+                Console.WriteLine("        ||                                                 .^~~^:               .^!77!!!!7??!.           ||         ");
+                Console.WriteLine("        ||                                                                          ..::::.              ||         ");
+                Console.WriteLine("        ||                                                                                               ||         ");
+                Console.WriteLine("        ==================================================================================================          ");
+>>>>>>> 8ce489e30d41390e9b279b79354d03024179daa6
                 Console.WriteLine("                                                                                                                       ");
                 Console.WriteLine("                                                                                                                       ");
                 Console.Write("                               Choose an option: ");
@@ -1355,6 +1441,7 @@ namespace Project__1
                 Console.WriteLine("                                ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝               ");
                 Console.WriteLine("                                                                                                             ");
                 Console.WriteLine("                                                                                                             ");
+<<<<<<< HEAD
                 Console.WriteLine("        ████████████████████████████████████████████████████████████████████████████████████████████████████ ");
                 Console.WriteLine("        ██                                                                                                ██ ");
                 Console.WriteLine("        ██                       Gene Editing (CRISPR and Other Technologies):                            ██ ");
@@ -1384,6 +1471,37 @@ namespace Project__1
                 Console.WriteLine("        ██                                                                                                ██ ");
                 Console.WriteLine("        ██                                                                                                ██ ");
                 Console.WriteLine("        ████████████████████████████████████████████████████████████████████████████████████████████████████ ");
+=======
+                Console.WriteLine("        ==================================================================================================== ");
+                Console.WriteLine("        ||                                                                                                || ");    
+                Console.WriteLine("        ||                       Gene Editing (CRISPR and Other Technologies):                            || ");
+                Console.WriteLine("        ||                                                                                                || ");
+                Console.WriteLine("        ||                                                 PBGY???77777777!!!!!!!!77777777?????JJJJY      || ");
+                Console.WriteLine("        ||                                                 ?PB5777!!!!!!!~~~~~~~~~!!!!!!!77777????JJ      || ");
+                Console.WriteLine("        ||                                                 7JGG?!!~~~~~~~~^^^^^^^^^^~~~~~~!!!!777???      || ");
+                Console.WriteLine("        ||                                                 77PBY~~^^^^^^^^^:::.:~~^::^^^^~~~~!!!!777      || ");
+                Console.WriteLine("        ||  [ 1 ] What is CRISPR?                          G5PBPYYJ?7!~^^:::...:7YYJ7^::^^^^~~~~!!!7      || ");
+                Console.WriteLine("        ||  [ 2 ] How CRISPR Works                         7JPGPY555P55Y7:......:75PP?^::^^^^~~~~!!!      || ");
+                Console.WriteLine("        ||  [ 3 ] Applications of CRISPR in Medicine       ^^~YGY:::75P5?^......:!Y55J557:::^^^^~~~!      || ");
+                Console.WriteLine("        ||  [ 4 ] Gene Therapy and CRISPR                  ^^^?GP!75P5?^. ..    ^?J!..^JJ!.:::^^^~~~      || ");
+                Console.WriteLine("        ||  [ 5 ] Ethical Issues in Gene Editing           ^^:~5GPPP?^  .       .:.  . .^...:::^^^~~      || ");
+                Console.WriteLine("        ||  [ 6 ] Future of CRISPR Technology              ^^::7GPJ^...   .           ......:::^^^~~      || ");
+                Console.WriteLine("        ||  [ 7 ] Other Gene Editing Technologies          ^^:::JG5: .  :!7^        ..^.....:::^^^^~      || ");
+                Console.WriteLine("        ||  [ 8 ] Gene Editing in Agriculture              ^^::::JGY^.^?JJ7:      .^J??^....::::^^^~      || ");
+                Console.WriteLine("        ||  [ 9 ] Gene Editing and Cancer Research         ^^:::..7PPYPP?^      .!YPPPPJ....:::^^^^~      || ");
+                Console.WriteLine("        ||  [ 10 ] Risks and Limitations of Gene Editing   ^^::::..^JPG5~.    .!5GPJ^^PG!..::::^^^~~      || ");
+                Console.WriteLine("        ||  [ 0 ] Back                                     ^^^:::::..^7YPPY?!?PGP7:   YBY..::::^^^~~      || ");
+                Console.WriteLine("        ||                                                 ^^^^:::::....:~7Y5PPGG55YJ?YGP7~~~^^^^^~~      || ");
+                Console.WriteLine("        ||                                                 ~~^^^^:::::.......::^~!7??JYBG5PPGPPPYJ?7      || ");
+                Console.WriteLine("        ||                                                 ~~~~^^^^::::::::...........:5B5~~!77YGGGG      || ");
+                Console.WriteLine("        ||                                                 !!~~~~^^^^^^::::::::::::::^:7BB7^^!YPGPJ?      || ");
+                Console.WriteLine("        ||                                                 7!!!!~~~~~^^^^^^^^^^^^^^^^^^~GB5!JPGPY77?      || ");
+                Console.WriteLine("        ||                                                 ?7777!!!!~~~~~~~~~~~~~~~~~~~~YBGPGPY?7???      || ");
+                Console.WriteLine("        ||                                                 ????77777!!!!!!!!!!!!!!!!!!!!7GBBPJ???JJJ      || ");
+                Console.WriteLine("        ||                                                                                                || ");
+                Console.WriteLine("        ||                                                                                                || ");
+                Console.WriteLine("        ==================================================================================================== ");
+>>>>>>> 8ce489e30d41390e9b279b79354d03024179daa6
                 Console.WriteLine("                                                                                                             ");
                 Console.WriteLine("                                                                                                             ");
                 Console.Write("                               Choose an option: ");
@@ -2405,6 +2523,7 @@ namespace Project__1
                 Console.WriteLine("                                 ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║             ");
                 Console.WriteLine("                                  ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝             ");
                 Console.WriteLine("                                                                                                             ");
+<<<<<<< HEAD
                 Console.WriteLine("        ████████████████████████████████████████████████████████████████████████████████████████████████████ ");
                 Console.WriteLine("        ██                                                                                                ██");
                 Console.WriteLine("        ██                                            Epigenetics:                                        ██");
@@ -2435,6 +2554,38 @@ namespace Project__1
                 Console.WriteLine("        ██                                                                                                ██");
                 Console.WriteLine("        ██                                                                                                ██");
                 Console.WriteLine("        ████████████████████████████████████████████████████████████████████████████████████████████████████ ");
+=======
+                Console.WriteLine("        ==================================================================================================== ");
+                Console.WriteLine("        ||                                                                                                 ||");
+                Console.WriteLine("        ||                                            Epigenetics:                                         ||");
+                Console.WriteLine("        ||                                                                                                 ||");
+                Console.WriteLine("        ||                                            ::::..........................................::::   ||");
+                Console.WriteLine("        ||                                            :::................  .  .   ...................:::   ||");
+                Console.WriteLine("        ||                                            :.............      .               .............:   ||");
+                Console.WriteLine("        ||                                            ............        . .^^^^           ............   ||");
+                Console.WriteLine("        ||                                            ..........       .  . :~~~~:.  .        ..........   ||");
+                Console.WriteLine("        ||                                            ........       . . .  :~~~^.....         .........   ||");
+                Console.WriteLine("        ||  [ 1 ] What is Epigenetics?                ........ ...  ....  ...^~!~....  . . .  ..........   ||");
+                Console.WriteLine("        ||  [ 2 ] DNA Methylation                     ............ .  ..:^^~^~~^~^:^~:..         .......   ||");
+                Console.WriteLine("        ||  [ 3 ] Histone Modification                .....::.......:^^^~~7~^~^^~^:7~^^~^^:::::.:^^::...   ||");
+                Console.WriteLine("        ||  [ 4 ] Environmental Impact on Epigenetics ...:^~!~^^~~~^~^^:^:~!:^~~^^!!:::::^^^^^^:^~~^:...   ||");
+                Console.WriteLine("        ||  [ 5 ] Role of Epigenetics in Disease      .....::........ . ..:~^~~!^^^^.   ......   .......   ||");
+                Console.WriteLine("        ||  [ 0 ] Back                                ...... .      .......^^~~^~:^:.. ..      .........   ||");
+                Console.WriteLine("        ||                                            .........      . ....^^^~^^^^:.   .       ........   ||");
+                Console.WriteLine("        ||                                            ........          . ::^^:::^^:.           ........   ||");
+                Console.WriteLine("        ||                                            ..........          :::::::::..         ..........   ||");
+                Console.WriteLine("        ||                                            ...........         ..:^^::.           ...........   ||");
+                Console.WriteLine("        ||                                            :............         .:^~~^.        ............:   ||");
+                Console.WriteLine("        ||                                            ::...............    :::::::^^   ...............::   ||");
+                Console.WriteLine("        ||                                            ::::.................~^::^::^^................::::   ||");
+                Console.WriteLine("        ||                                            :::::::...............^^~^:::..............:::::::   ||");
+                Console.WriteLine("        ||                                            ^::::::::..............:^~~^:............::::::::^   ||");
+                Console.WriteLine("        ||                                            ^^^::::::::::........^~^^^^^~^.......::::::::::^^^   ||");
+                Console.WriteLine("        ||                                            ^^^^^^::::::::::::::.~~^^^^^~^.:::::::::::::^^^^^^   ||");
+                Console.WriteLine("        ||                                                                                                 ||");
+                Console.WriteLine("        ||                                                                                                 ||");
+                Console.WriteLine("        ==================================================================================================== ");
+>>>>>>> 8ce489e30d41390e9b279b79354d03024179daa6
                 Console.WriteLine("                                                                                                            ");
                 Console.WriteLine("                                                                                                            ");
                 Console.Write("                        Choose an option: ");
@@ -2746,6 +2897,7 @@ namespace Project__1
                 EvolutionAndGeneticsAnimation();
                 Console.ForegroundColor = ConsoleColor.DarkMagenta;
                 Console.Clear();
+<<<<<<< HEAD
                 Console.WriteLine("                                                                                                                      ");
                 Console.WriteLine("                                                                                                                      ");
                 Console.WriteLine("                                  ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗                      ");
@@ -2787,6 +2939,49 @@ namespace Project__1
                 Console.WriteLine("        ████████████████████████████████████████████████████████████████████████████████████████████████████          ");
                 Console.WriteLine("                                                                                                                      ");
                 Console.WriteLine("                                                                                                                      ");
+=======
+                Console.WriteLine("                                                                                                                          ");
+                Console.WriteLine("                                                                                                                          ");
+                Console.WriteLine("                                  ██████╗ ███████╗███╗   ██╗███████╗████████╗██╗ ██████╗███████╗                          ");
+                Console.WriteLine("                                 ██╔════╝ ██╔════╝████╗  ██║██╔════╝╚══██╔══╝██║██╔════╝██╔════╝                          ");
+                Console.WriteLine("                                 ██║  ███╗█████╗  ██╔██╗ ██║█████╗     ██║   ██║██║     ███████╗                          ");
+                Console.WriteLine("                                 ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝     ██║   ██║██║     ╚════██║                          ");
+                Console.WriteLine("                                 ╚██████╔╝███████╗██║ ╚████║███████╗   ██║   ██║╚██████╗███████║                          ");
+                Console.WriteLine("                                  ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝╚══════╝                          ");
+                Console.WriteLine("                                                                                                                          ");
+                Console.WriteLine("        ====================================================================================================           ");
+                Console.WriteLine("        ||                                                                                                 ||          ");
+                Console.WriteLine("        ||                            Evolution and Genetics:                                              ||          ");
+                Console.WriteLine("        ||                                                                                                 ||          ");
+                Console.WriteLine("        ||                                                                                                 ||          ");
+                Console.WriteLine("        ||                                                                                                 ||          ");
+                Console.WriteLine("        ||                                                                                                 ||          ");
+                Console.WriteLine("        ||                                                                  .!7:                           ||          ");
+                Console.WriteLine("        ||                                                                  ~&&5                           ||          ");
+                Console.WriteLine("        ||   [ 1 ] What is Evolution?                                     .5#B~             .^!!!7JP5^     ||          ");
+                Console.WriteLine("        ||   [ 2 ] Natural Selection                            ..        ~&#&J           :?G##&&#BBP^     ||          ");
+                Console.WriteLine("        ||   [ 3 ] Genetic Drift                              ^5BB!       .G##P.         ?B&####&P..       ||          ");
+                Console.WriteLine("        ||   [ 4 ] Gene Flow                                 ~#&#5^       !###BJ:       !#####B##~         ||          ");
+                Console.WriteLine("        ||   [ 5 ] Evolutionary Developmental Biology        J&#&7        J&#&B7:       Y&###BJB!          ||          ");
+                Console.WriteLine("        ||   [ 0 ] Back                           .!PB5.    ~B##JJJ?.    .B#7?#B:       P&B5B#BP           ||          ");
+                Console.WriteLine("        ||                                        !B&&P!.    ?###Y: ?!    Y#?  ~&J      !##! ?#&?::        ||          ");
+                Console.WriteLine("        ||                                       Y####P.      ~#B5B:     !#!    5G.   .J#B7  Y&P..         ||          ");
+                Console.WriteLine("        ||                              ..:^7J! .YB&BY#G.     YY. YY::~~!G5      P5!!^YBB~   P&Y           ||          ");
+                Console.WriteLine("        ||                            ~YBBB#&#!  ^G7JPY5Y. .75BG5?~^5B5YPBG! .:.::!5B5PBG7 .^5BB?          ||          ");
+                Console.WriteLine("        ||                           :7?GP7P~J~:~5G!.77~^^.^J?^~J5B5~^7^?!5#J!J!J~7~J:!~5#7^P5J5B5^        ||          ");
+                Console.WriteLine("        ||                           .!~?5Y5~.?BPJYPGY7J~?~?^.::7:?P#Y?^!?.7GB?~J!?!J^!^!Y&?:J~7~P#!:7^!   ||          ");
+                Console.WriteLine("        ||                        ^: ..?GPJJPBP7:.^~^YBG77!~?:::7!5:~5B57?^^:?BGJ!!~?~~~! J&5!^J^~P#?:!?   ||          ");
+                Console.WriteLine("        ||                        ?~.:.!^J7~J~5B5~.~~7YJPGY??~~!?::   ^?PPP5PP?!5PPPPY.    !GB??~J^Y#J7:   ||          ");
+                Console.WriteLine("        ||                        G~.:.7^Y?7Y^7~5B577~?!^YGY5PPPJ.       .^~^:   .:::.      .!5GP57^JBGJ   ||          ");
+                Console.WriteLine("        ||                        5BP!:!^J7~?::  :7Y5PPPPY7                                    :!?Y55^~J   ||          ");
+                Console.WriteLine("        ||                        ::?PGPPG!           .                                                    ||          ");
+                Console.WriteLine("        ||                            .::.                                                                 ||          ");
+                Console.WriteLine("        ||                                                                                                 ||          ");
+                Console.WriteLine("        ||                                                                                                 ||          ");
+                Console.WriteLine("        ====================================================================================================           ");
+                Console.WriteLine("                                                                                                                          ");
+                Console.WriteLine("                                                                                                                          ");
+>>>>>>> 8ce489e30d41390e9b279b79354d03024179daa6
                 Console.Write("                        Choose an option: ");
                 subOption = Convert.ToInt32(Console.ReadLine());
 
